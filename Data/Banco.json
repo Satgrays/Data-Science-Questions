@@ -1,0 +1,42 @@
+[
+    {
+      "id": 1,
+      "text": "Sea $V$ un espacio vectorial de dimensión finita. ¿Cuál de las siguientes afirmaciones es siempre verdadera para cualquier base de $V$?",
+      "options": [
+        "A: Cualquier conjunto de vectores en $V$ que genere $V$ es una base. \n",
+        "B: Si un conjunto de vectores en $V$ tiene más elementos que una base, es linealmente independiente.\n",
+        "C: Una base de $V$ contiene exactamente el mismo número de vectores que cualquier otra base de $V$.\n",
+        "D: Cualquier conjunto de vectores linealmente independientes en $V$ forma una base. "
+      ],
+      "correct_answer": "C",
+      "explanation": null,
+      "image": null
+    },
+    {
+      "id": 2,
+      "text": "Sea $T:\\mathbb{R}^{n}\\to \\mathbb{R}^{m}$. Para comprobar si $T$ es una transformación lineal, ¿qué se debe verificar?",
+      "options": [
+        "A: Que para cualquier $u, v \\in\\mathbb{R}^{n} $ y cualquier escala $c$, se cumpla $T(u+v)=T(u) y T(cu) = cT(u)$\n",
+        "B: Que $T$ preserve la ortogonalidad entre vectores.\n",
+        "C: Que $T$ tenga una matriz asociada de determinante no nulo.\n",
+        "D: Que $T(0) = 0$ y que $T$ envíe cada vector a otro de igual norma"
+      ],
+      "correct_answer": "A",
+      "explanation": null,
+      "image": null
+    }
+    ,
+    {
+      "id": 3,
+      "text": "Sea $T:\\mathbb{R}^{3}\\to \\mathbb{R}^{3}$ definida por:$T(x,y,z) = (x+y, y+z, x-z)$ para determinar si $T$ es una transformación lineal ¿qué se debe comprobar?",
+      "options": [
+        "A: Que $T(x,y,z)$ tenga una matriz asociada con determinante distinto de cero.\n",
+        "B: Que $T(0,0,0)=(0,0,0)$ y que $T(x,y,z)$ sea diferenciable en todos los puntos.\n",
+        "C: Que $T(x,y,z)$ preserve la norma de los vectores en \\mathbb{R}^{3}.\n",
+        "D: Que $T(u+v)=T(u)+T(v)$ y $T(cu)=cT(u)$ para todos los valores $u,v$ y escalares $c$."
+      ],
+      "correct_answer": "D",
+      "explanation": null,
+      "image": null
+    }
+]
