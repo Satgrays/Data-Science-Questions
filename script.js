@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
   navButtons.after(checkButton);
 
   // Load the Excel file from the same directory
-  fetch('quizData.xlsx')
+  fetch('Data/Banco.json')
     .then(response => response.arrayBuffer())
     .then(data => {
       const workbook = XLSX.read(new Uint8Array(data), { type: 'array' });
