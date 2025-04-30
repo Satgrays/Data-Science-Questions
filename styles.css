@@ -128,3 +128,28 @@ button:disabled {
 input[type="radio"]:checked + span {
     font-weight: bold;
 }
+.question-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+  }
+  
+
+/* Opcional: Añade un contenedor para la imagen con un fondo claro */
+.image-container {
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 15px 0;
+}
+
+/* Mejora la visibilidad en dispositivos móviles */
+@media (max-width: 600px) {
+    .question-image {
+        max-height: 200px;
+        width: auto;
+        margin: 10px auto;
+    }
+}
