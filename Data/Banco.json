@@ -39,4 +39,230 @@
       "explanation": null,
       "image": null
     }
+    ,
+    {
+      "id": 4,
+      "text": "Sea $T$ una transformación lineal y $B$ una base de $V$. ¿Cómo se obtiene la matriz de $T$ en la base $B$?",
+      "options": [
+        "A: Aplicando $T$ a cada vector de la base y escribiendo los resultados como columnas en términos de $B$.",
+        "B: Tomando la matriz identidad de orden 3 y permutando sus columnas de forma aleatoria.",
+        "C: Multiplicando los vectores de la base por un escalar arbitrario y organizándolos en una matriz.",
+        "D: Sumando todos los vectores de la base y escribiendo el resultado como la primera columna de la matriz."
+      ],
+      "correct_answer": "A",
+      "explanation": null,
+      "image": null
+    },
+    {
+      "id": 5,
+      "text": "Sean $A$ y $B$ dos eventos en un espacio muestral. ¿Cuál de las siguientes afirmaciones es correcta?",
+      "options": [
+        "A: La intersección de $A$ y $B$ contiene todos los elementos del espacio muestral.",
+        "B: Si $A$ y $B$ son disjuntos, entonces su intersección no es vacía.",
+        "C: La unión de $A$ y $B$ contiene solo los elementos que están en ambos eventos.",
+        "D: El complemento de $A$ está formado por los elementos que no están en $A$."
+      ],
+      "correct_answer": "D",
+      "explanation": null,
+      "image": null
+    },
+    {
+      "id": 6,
+      "text": "¿Cuál de los siguientes ejemplos representa una variable aleatoria continua?",
+      "options": [
+        "A: Resultado de un dado de seis caras.",
+        "B: Número de autos en un estacionamiento.",
+        "C: Cantidad de hermanos de una persona.",
+        "D: Tiempo que tarda un estudiante en resolver un examen."
+      ],
+      "correct_answer": "D",
+      "explanation": null,
+      "image": null
+    }
+    ,
+    {
+      "id": 7,
+      "text": "¿Cuál es la forma de la distribución normal?",
+      "options": [
+        "A: Una línea recta ascendente.",
+        "B: Una curva decreciente que nunca llega a cero.",
+        "C: Una curva en forma de campana simétrica.",
+        "D: Una función escalonada con valores discretos."
+      ],
+      "correct_answer": "C",
+      "explanation": null,
+      "image": null
+    },
+    {
+      "id": 8,
+      "text": "En una distribución normal, ¿qué representa $\\mu$?",
+      "options": [
+        "A: La media o valor esperado.",
+        "B: La desviación estándar.",
+        "C: La varianza.",
+        "D: El punto donde la función de densidad alcanza su mínimo."
+      ],
+      "correct_answer": "A",
+      "explanation": null,
+      "image": null
+    },
+    {
+      "id": 9,
+      "text": "Observa la siguiente gráfica. ¿Cuál de las siguientes opciones describe correctamente los parámetros de la distribución?",
+      "options": [
+        "A: Distribución normal con media 10 y desviación estándar 3.",
+        "B: Distribución normal con media 10 y varianza 3.",
+        "C: Distribución normal con media 3 y desviación estándar 10.",
+        "D: Distribución normal con media 10 y desviación estándar 6."
+      ],
+      "correct_answer": "A",
+      "explanation": null,
+      "image": null
+    },
+    {
+      "id": 10,
+      "text": "Si una variable aleatoria $X$ sigue una distribución normal $N(4, 2^2)$, ¿cuál es su varianza?",
+      "options": [
+        "A: 2",
+        "B: 4",
+        "C: 5",
+        "D: 16"
+      ],
+      "correct_answer": "D",
+      "explanation": null,
+      "image": null
+    }
+    ,
+    {
+      "id": 11,
+      "text": "Sea una variable aleatoria $X$ con función de densidad $N(8, 2^2)$. ¿Cuál es la media de $X$?",
+      "options": [
+        "A: 2",
+        "B: 4",
+        "C: 8",
+        "D: 16"
+      ],
+      "correct_answer": "C",
+      "explanation": null,
+      "image": null
+    },
+    {
+      "id": 12,
+      "text": "Para transformar una variable normal $X$ en una variable con distribución normal estándar $Z$, usamos la fórmula:",
+      "options": [
+        "A: $Z = \\dfrac{X - \\mu}{\\sigma}$",
+        "B: $Z = \\dfrac{\\mu - X}{\\sigma^2}$",
+        "C: $Z = X - \\sigma$",
+        "D: $Z = \\dfrac{\\mu - X}{\\sigma}$"
+      ],
+      "correct_answer": "A",
+      "explanation": null,
+      "image": null
+    },
+    {
+      "id": 13,
+      "text": "En una empresa, los puntajes de desempeño de los empleados en una evaluación tienen una distribución normal con media 80 y varianza 64. Si $X$ representa el puntaje de un empleado, ¿cuál es la expresión para transformar $X$ en una variable normal estándar $Z$?",
+      "options": [
+        "A: $Z = \\dfrac{X - 80}{8}$",
+        "B: $Z = \\dfrac{X - 64}{8}$",
+        "C: $Z = \\dfrac{X - 80}{64}$",
+        "D: $Z = \\dfrac{X - 8}{80}$"
+      ],
+      "correct_answer": "A",
+      "explanation": null,
+      "image": null
+    },
+    {
+      "id": 14,
+      "text": "Si $X$ e $Y$ son variables aleatorias con medias $\\mu_X$ y $\\mu_Y$, la media de la combinación lineal $aX + bY$ se calcula como:",
+      "options": [
+        "A: $\\mu_X + \\mu_Y$",
+        "B: $a \\mu_X + b \\mu_Y$",
+        "C: $aX + bY$",
+        "D: $ab(\\mu_X + \\mu_Y)$"
+      ],
+      "correct_answer": "B",
+      "explanation": null,
+      "image": null
+    },
+    {
+      "id": 15,
+      "text": "Si $X$ e $Y$ son variables aleatorias independientes con varianzas $\\sigma_X^2$ y $\\sigma_Y^2$, la varianza de $aX + bY$ es:",
+      "options": [
+        "A: $a^2 \\sigma_X^2 + b^2 \\sigma_Y^2$",
+        "B: $a^2 \\sigma_X + b^2 \\sigma_Y$",
+        "C: $ab(\\sigma_X + \\sigma_Y)$",
+        "D: $a \\sigma_X^2 + b \\sigma_Y^2$"
+      ],
+      "correct_answer": "A",
+      "explanation": null,
+      "image": null
+    }
+    ,
+    {
+      "id": 16,
+      "text": "Una cafetería vende tres tipos de café: americano, capuchino y espresso, con precios de $45$, $60$ y $50$ por taza, respectivamente. Sean $X_1$, $X_2$, y $X_3$ las cantidades diarias vendidas de cada tipo de café, con desviaciones estándar $\\sigma_1$, $\\sigma_2$, y $\\sigma_3$. Si se asume que son variables aleatorias independientes, ¿cuál es la expresión para calcular la varianza del ingreso diario?",
+      "options": [
+        "A: $45^2 \\sigma_1^2 + 60^2 \\sigma_2^2 + 50^2 \\sigma_3^2$",
+        "B: $45 \\sigma_1 + 60 \\sigma_2 + 50 \\sigma_3$",
+        "C: $\\sigma_1^2 + \\sigma_2^2 + \\sigma_3^2$",
+        "D: $\\sqrt{45^2 + 60^2 + 50^2}$"
+      ],
+      "correct_answer": "A",
+      "explanation": null,
+      "image": null
+    },
+    {
+      "id": 17,
+      "text": "¿Cuál de las siguientes afirmaciones es correcta sobre la diferencia entre variabilidad natural y error de medición?",
+      "options": [
+        "A: La variabilidad natural es propia del sistema estudiado, mientras que el error de medición proviene de imprecisiones en los instrumentos.",
+        "B: Ambos términos significan lo mismo.",
+        "C: La variabilidad natural puede eliminarse completamente con mejores herramientas de medición.",
+        "D: La variabilidad natural proviene de la incertidumbre en la medición, mientras que el error de medición es inherente al proceso."
+      ],
+      "correct_answer": "A",
+      "explanation": null,
+      "image": null
+    },
+    {
+      "id": 18,
+      "text": "¿Por qué se utilizan variables aleatorias en la modelación de incertidumbre?",
+      "options": [
+        "A: Porque eliminan completamente la incertidumbre en un problema.",
+        "B: Porque todas las variables en un experimento son siempre aleatorias.",
+        "C: Porque permiten describir de manera matemática fenómenos aleatorios.",
+        "D: Porque las probabilidades siempre se pueden calcular exactamente."
+      ],
+      "correct_answer": "C",
+      "explanation": null,
+      "image": null
+    },
+    {
+      "id": 19,
+      "text": "Sea $X$ una variable aleatoria continua con la siguiente función de distribución acumulada (CDF): $F(x)$. ¿Cuál de las siguientes opciones describe correctamente la probabilidad de que la variable aleatoria tome un valor en el intervalo $[a, b]$?",
+      "options": [
+        "A: $F(b) - F(a)$",
+        "B: $F(a) - F(b)$",
+        "C: $F(a + b)$",
+        "D: $1 - F(b)$"
+      ],
+      "correct_answer": "A",
+      "explanation": null,
+      "image": null
+    },
+    {
+      "id": 20,
+      "text": "Si $X \\sim N(\\mu, \\sigma^2)$, ¿cuál es la función de densidad de $X$?",
+      "options": [
+        "A: $f(x) = \\dfrac{1}{\\sqrt{2\\pi \\sigma^2}} e^{-\\frac{(x - \\mu)^2}{2\\sigma^2}}$",
+        "B: $f(x) = \\dfrac{1}{\\sqrt{\\sigma^2}} e^{-\\frac{(x - \\mu)}{2\\sigma^2}}$",
+        "C: $f(x) = \\dfrac{1}{2\\pi} e^{-\\frac{(x - \\mu)^2}{\\sigma}}$",
+        "D: $f(x) = \\dfrac{1}{\\sigma} e^{-\\frac{(x - \\mu)^2}{\\sigma^2}}$"
+      ],
+      "correct_answer": "A",
+      "explanation": null,
+      "image": null
+    }
+  
 ]
