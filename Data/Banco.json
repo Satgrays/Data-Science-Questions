@@ -95,7 +95,7 @@
     },
     {
       "id": 8,
-      "text": "En una distribución normal, ¿qué representa $\\mu$?",
+      "text": "En una distribución normal $N(\\mu, \\sigma^{2})$, ¿qué representa $\\mu$?",
       "options": [
         "A: La media o valor esperado.",
         "B: La desviación estándar.",
@@ -117,25 +117,25 @@
       ],
       "correct_answer": "A",
       "explanation": null,
-      "image": null
+      "image": "./Images/1_9.png"
     },
     {
       "id": 10,
-      "text": "Si una variable aleatoria $X$ sigue una distribución normal $N(4, 2^2)$, ¿cuál es su varianza?",
+      "text": "Si una variable aleatoria $X$ sigue una distribución normal $N(5, 4)$, ¿cuál es su varianza?",
       "options": [
         "A: 2",
         "B: 4",
         "C: 5",
         "D: 16"
       ],
-      "correct_answer": "D",
+      "correct_answer": "B",
       "explanation": null,
       "image": null
     }
     ,
     {
       "id": 11,
-      "text": "Sea una variable aleatoria $X$ con función de densidad $N(8, 2^2)$. ¿Cuál es la media de $X$?",
+      "text": "Sea una variable aleatoria $X$ con función de densidad $f(x)=\\frac{1}{\\sqrt{2\\pi(4)}}e^{-\\frac{(x-8)^{2}}{2(4)}}$. ¿Cuál es la media de $X$?",
       "options": [
         "A: 2",
         "B: 4",
@@ -148,7 +148,7 @@
     },
     {
       "id": 12,
-      "text": "Para transformar una variable normal $X$ en una variable con distribución normal estándar $Z$, usamos la fórmula:",
+      "text": "Para transformar una variable normal $X\\sim N(\\mu,\\sigma^{2})$ en una variable con distribución normal estándar $Z\\sim N(0,1)$, usamos la fórmula:",
       "options": [
         "A: $Z = \\dfrac{X - \\mu}{\\sigma}$",
         "B: $Z = \\dfrac{\\mu - X}{\\sigma^2}$",
@@ -174,12 +174,12 @@
     },
     {
       "id": 14,
-      "text": "Si $X$ e $Y$ son variables aleatorias con medias $\\mu_X$ y $\\mu_Y$, la media de la combinación lineal $aX + bY$ se calcula como:",
+      "text": "Si $X$ e $Y$ son variables aleatorias con medias $E[X]=\\mu_{X}$ y $E[Y]=\\mu_{Y}$, la media de la combinación lineal $Z=aX + bY$ se calcula como:",
       "options": [
-        "A: $\\mu_X + \\mu_Y$",
-        "B: $a \\mu_X + b \\mu_Y$",
-        "C: $aX + bY$",
-        "D: $ab(\\mu_X + \\mu_Y)$"
+        "A: $E[Z]=\\mu_X + \\mu_Y$",
+        "B: $E[Z]=a \\mu_X + b \\mu_Y$",
+        "C: $E[Z]=aX + bY$",
+        "D: $E[Z]=ab(\\mu_X + \\mu_Y)$"
       ],
       "correct_answer": "B",
       "explanation": null,
@@ -201,7 +201,7 @@
     ,
     {
       "id": 16,
-      "text": "Una cafetería vende tres tipos de café: americano, capuchino y espresso, con precios de $45$, $60$ y $50$ por taza, respectivamente. Sean $X_1$, $X_2$, y $X_3$ las cantidades diarias vendidas de cada tipo de café, con desviaciones estándar $\\sigma_1$, $\\sigma_2$, y $\\sigma_3$. Si se asume que son variables aleatorias independientes, ¿cuál es la expresión para calcular la varianza del ingreso diario?",
+      "text": "Una cafetería vende tres tipos de café: americano, capuchino y espresso, con precios de $45$, $60$ y $50$ por taza, respectivamente. Sean $X_1$, $X_2$, y $X_3$ las cantidades diarias vendidas de cada tipo de café, con desviaciones estándar $\\sigma_1$, $\\sigma_2$, y $\\sigma_3$. Si se asume que son variables aleatorias independientes, ¿cuál es la expresión para calcular la varianza del ingreso diario de la cafeteria?",
       "options": [
         "A: $45^2 \\sigma_1^2 + 60^2 \\sigma_2^2 + 50^2 \\sigma_3^2$",
         "B: $45 \\sigma_1 + 60 \\sigma_2 + 50 \\sigma_3$",
@@ -240,12 +240,12 @@
     },
     {
       "id": 19,
-      "text": "Sea $X$ una variable aleatoria continua con la siguiente función de distribución acumulada (CDF): $F(x)$. ¿Cuál de las siguientes opciones describe correctamente la probabilidad de que la variable aleatoria tome un valor en el intervalo $[a, b]$?",
+      "text": "Sea $X$ una variable aleatoria continua con la siguiente función de distribución acumulada (CDF): $F(x) =\\begin{cases} 0, & x\\le 0 \\\\ x^{4}, & 0\\lt x\\lt 2\\\\ 1, & x\\ge 2 \\end{cases}\\\\$. ¿Cuál de las siguientes opciones describe correctamente la probabilidad de que la variable aleatoria tome un valor en el intervalo $(0.3,1.2)$?",
       "options": [
-        "A: $F(b) - F(a)$",
-        "B: $F(a) - F(b)$",
-        "C: $F(a + b)$",
-        "D: $1 - F(b)$"
+        "A: $P(0.3\\lt X\\lt 1.2)=1.2^{4}-0.3^{4}$",
+        "B: $P(0.3\\lt X\\lt 1.2)=0.3^{4}-1.2^{4}$",
+        "C: $P(0.3\\lt X\\lt 1.2)=\\int_{0.3}^{1.2}x^{4}dx$",
+        "D: $P(0.3\\lt X\\lt 1.2)=\\int_{0.29}^{1.1}x^{4}dx$"
       ],
       "correct_answer": "A",
       "explanation": null,
@@ -253,12 +253,12 @@
     },
     {
       "id": 20,
-      "text": "Si $X \\sim N(\\mu, \\sigma^2)$, ¿cuál es la función de densidad de $X$?",
+      "text": "Sea $T:\\mathbb{R}^{2}\\to \\mathbb{R}^{3}$ una transformación lineal tal que: $T(v_{1})=\\begin{bmatrix} 2\\\\ 3 \\end{bmatrix}, T(v_{2})=\\begin{bmatrix} -1\\\\ 4 \\end{bmatrix}$ donde $B=\\left\\{ v_{1}, v_{2}\\right\\}$ es una base de $\\mathbb{R}^{2}$. ¿Cuál es la matriz que representa $T$ en la base de $B$?",
       "options": [
-        "A: $f(x) = \\dfrac{1}{\\sqrt{2\\pi \\sigma^2}} e^{-\\frac{(x - \\mu)^2}{2\\sigma^2}}$",
-        "B: $f(x) = \\dfrac{1}{\\sqrt{\\sigma^2}} e^{-\\frac{(x - \\mu)}{2\\sigma^2}}$",
-        "C: $f(x) = \\dfrac{1}{2\\pi} e^{-\\frac{(x - \\mu)^2}{\\sigma}}$",
-        "D: $f(x) = \\dfrac{1}{\\sigma} e^{-\\frac{(x - \\mu)^2}{\\sigma^2}}$"
+        "A: $\\begin{bmatrix}2 & -1\\\\3 & 4\\end{bmatrix}$",
+        "B: $\\begin{bmatrix}-1 & 2\\\\4 & 3\\end{bmatrix}$",
+        "C: $\\begin{bmatrix}3 & 2\\\\4 & -1\\end{bmatrix}$",
+        "D: $\\begin{bmatrix}2 & 3\\\\-1 & 4\\end{bmatrix}$"
       ],
       "correct_answer": "A",
       "explanation": null,
@@ -266,3 +266,4 @@
     }
   
 ]
+
