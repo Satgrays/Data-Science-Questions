@@ -21,18 +21,16 @@ document.addEventListener('DOMContentLoaded', function() {
   checkButton.style.display = 'none';
   navButtons.after(checkButton);
 
-  // Load the Excel file from the same directory
+  // Load the JSON file from the same directory
   fetch('Data/Banco.json')
-    .then(response => response.arrayBuffer())
+    .then(response => {
+      if (!response.ok) {
+        throw new Error('Network response was not ok');
+      }
+      return response.json();
+    })
     .then(data => {
-      const workbook = XLSX.read(new Uint8Array(data), { type: 'array' });
-
-      // Get the first worksheet
-      const sheetName = workbook.SheetNames[0];
-      const worksheet = workbook.Sheets[sheetName];
-
-      // Convert to JSON
-      quizData = XLSX.utils.sheet_to_json(worksheet);
+      quizData = data;
 
       // Initialize the quiz
       currentQuestionIndex = 0;
@@ -44,7 +42,7 @@ document.addEventListener('DOMContentLoaded', function() {
       document.getElementById('question-counter').textContent = `Question 1 of ${quizData.length}`;
       document.getElementById('check-btn').style.display = 'block';
     })
-    .catch(error => console.error('Error loading the Excel file:', error));
+    .catch(error => console.error('Error loading the JSON file:', error));
 
   // Add event listeners for navigation
   document.getElementById('prev-btn').addEventListener('click', showPreviousQuestion);
@@ -74,14 +72,20 @@ function createQuiz() {
   questionText.innerHTML = `Question ${currentQuestionIndex + 1}: ${question.text}`;
   questionDiv.appendChild(questionText);
 
-  // Parse options (split by \n)
-  const options = question.options.split('\\n');
+  // Add image if exists
+  if (question.image) {
+    const imageEl = document.createElement('img');
+    imageEl.src = question.image;
+    imageEl.className = 'question-image';
+    imageEl.alt = 'Question image';
+    questionDiv.appendChild(imageEl);
+  }
 
   // Create option elements
   const optionsContainer = document.createElement('div');
   optionsContainer.className = 'options';
 
-  options.forEach(option => {
+  question.options.forEach(option => {
     const optionLabel = document.createElement('label');
     optionLabel.className = 'option';
 
@@ -112,7 +116,7 @@ function createQuiz() {
   questionDiv.dataset.correct = question.correct_answer;
 
   // Store explanation
-  questionDiv.dataset.explanation = question.explanation;
+  questionDiv.dataset.explanation = question.explanation || "No explanation provided.";
 
   quizContainer.appendChild(questionDiv);
 
