@@ -263,7 +263,606 @@
       "correct_answer": "A",
       "explanation": null,
       "image": null
-    }
-  
+    },
+    {
+      "id": 21,
+      "text": "En un problema de asignación donde se asignan vehículos a rutas de distribución, pero las rutas tienen capacidades limitadas (es decir, no todos los vehículos pueden cubrir todas las rutas debido a restricciones de capacidad), ¿cuál sería la restricción adecuada para modelar estas limitaciones de capacidad?",
+      "options": [
+          "A: La suma de las asignaciones de vehículos a una ruta debe ser igual a la capacidad máxima de vehículos que puede cubrir esa ruta.",
+          "B: La suma de las asignaciones de vehículos a las rutas debe ser menor o igual a la capacidad total de vehículos disponibles.",
+          "C: La suma de las asignaciones de vehículos a una ruta debe ser menor o igual a la capacidad máxima de vehículos que puede cubrir esa ruta.",
+          "D: La suma de las asignaciones de vehículos a cada ruta debe ser igual a la cantidad total de vehículos disponibles."
+      ],
+      "correct_answer": "C",
+      "explanation": null,
+      "image": null
+    },
+    {
+      "id": 22,
+      "text": "Consideremos el toro $T = S^1 \\times S^1$, donde $S^1 = \\{(x, y) \\in \\mathbb{R}^2 \\mid x^2 + y^2 = 1\\}$ es el círculo unitario. ¿Cuáles son los números de Betti del toro $T$?",
+      "options": [
+          "A: $(1,0,1)$",
+          "B: $(1,2,1)$",
+          "C: $(1,1,1)$",
+          "D: $(2,1,2)$"
+      ],
+      "correct_answer": "B",
+      "explanation": null,
+      "image": null
+    },
+    {
+      "id": 23,
+      "text": "¿Cuál es la función objetivo en un problema de transporte?",
+      "options": [
+          "A: Maximizar la cantidad total de productos transportados.",
+          "B: Minimizar el costo total de transportar productos desde los puntos de origen a los destinos.",
+          "C: Maximizar el beneficio total de enviar productos.",
+          "D: Minimizar la cantidad de productos transportados."
+      ],
+      "correct_answer": "B",
+      "explanation": null,
+      "image": null
+    },
+    {
+      "id": 24,
+      "text": "Consideremos la esfera unitaria $S^2 = \\{(x, y, z) \\in \\mathbb{R}^3 \\mid x^2 + y^2 + z^2 = 1\\}$. ¿Cuáles son sus números de Betti?",
+      "options": [
+          "A: $(2,1,2)$",
+          "B: $(1,1,1)$",
+          "C: $(1,2,1)$",
+          "D: $(1,0,1)$"
+      ],
+      "correct_answer": "D",
+      "explanation": null,
+      "image": null
+    },
+    {
+      "id": 25,
+      "text": "En un problema de asignación con $m$ recursos y $n$ tareas, ¿cómo se representa la matriz de costos?",
+      "options": [
+          "A: Una matriz $n \\times m$ donde las filas representan las tareas y las columnas los recursos.",
+          "B: Una matriz $m \\times n$ donde las filas representan los recursos y las columnas las tareas, y cada celda muestra el costo de asignar el recurso $i$ a la tarea $j$.",
+          "C: Una matriz $n \\times n$ donde las filas representan los recursos y las columnas las tareas.",
+          "D: Una matriz $m \\times m$ donde las filas representan los recursos y las columnas las tareas."
+      ],
+      "correct_answer": "B",
+      "explanation": null,
+      "image": null
+    },
+    {
+      "id": 26,
+      "text": "Se tienen los siguientes padres en un algoritmo genético: Padre 1 = \"EVOLUCION\", Padre 2 = \"ALGORITMO\". Después de aplicar un cruce de un punto, se obtienen los siguientes hijos: Hijo 1 = \"EVOLRITMO\", Hijo 2 = \"ALGOUCION\". ¿En qué posición se aplicó el operador de cruce?",
+      "options": [
+          "A: Después de la sexta letra",
+          "B: Después de la tercera letra",
+          "C: Después de la cuarta letra",
+          "D: Después de la quinta letra"
+      ],
+      "correct_answer": "C",
+      "explanation": null,
+      "image": null
+    },
+    {
+      "id": 27,
+      "text": "En un problema de asignación con una función objetivo que minimiza el costo de asignación de recursos a tareas, ¿cuál es la restricción adecuada para asegurar que todos los recursos sean utilizados?",
+      "options": [
+          "A: La suma de las asignaciones de las tareas debe ser igual al número total de recursos.",
+          "B: La suma de las asignaciones de tareas a los recursos debe ser mayor o igual al número total de recursos.",
+          "C: La suma de las asignaciones de los recursos debe ser igual al número total de recursos.",
+          "D: La suma de las asignaciones de recursos a las tareas debe ser igual al número total de tareas."
+      ],
+      "correct_answer": "D",
+      "explanation": null,
+      "image": null
+    },
+    {
+      "id": 28,
+      "text": "Encuentre el inverso multiplicativo de 37 en $\\mathbb{Z}/101\\mathbb{Z}$.",
+      "options": [
+          "A: 71",
+          "B: 38",
+          "C: 92",
+          "D: $\\frac{1}{37}$"
+      ],
+      "correct_answer": "A",
+      "explanation": null,
+      "image": null
+    },
+    {
+      "id": 29,
+      "text": "Determine cuál de los siguientes conjuntos forma un grupo con la operación indicada. Seleccione todas las respuestas correctas.",
+      "options": [
+          "A: Los números racionales con la suma.",
+          "B: Los números reales con la multiplicación.",
+          "C: Los números naturales con la suma.",
+          "D: Los números enteros con la suma."
+      ],
+      "correct_answer": "A, D",
+      "explanation": null,
+      "image": null
+    },
+    {
+      "id": 30,
+      "text": "Alicia y Beto desean crear un número secreto compartido utilizando el protocolo Diffie-Hellman. Supongamos que Alicia y Beto acuerdan, de manera pública, utilizar $p = 23$ para el módulo y $g = 5$ para la base. Encontrar el secreto compartido $s$, si el número secreto de Alice es $a=4$ y el número secreto de Bob es $b=3$.",
+      "options": [
+          "A: 21",
+          "B: 7",
+          "C: 5",
+          "D: 18"
+      ],
+      "correct_answer": "D",
+      "explanation": null,
+      "image": null
+    },
+    {
+      "id": 31,
+      "text": "¿Por qué es útil el análisis topológico de datos en el análisis de conjuntos de datos de alta dimensión?",
+      "options": [
+          "A: Etiqueta los datos de manera automática.",
+          "B: Puede reducir el número de dimensiones sin perder información.",
+          "C: Nos ayuda a eliminar el ruido en los datos.",
+          "D: Nos ayuda a encontrar estructuras estables en nuestro conjunto de datos que son independientes de la escala."
+      ],
+      "correct_answer": "D",
+      "explanation": null,
+      "image": null
+    },
+    {
+      "id": 32,
+      "text": "En un problema de asignación, ¿cuál es la restricción clave que debe cumplirse?",
+      "options": [
+          "A: Cada recurso debe ser asignado a exactamente una tarea.",
+          "B: Cada tarea debe ser asignada a un solo recurso, pero un recurso puede ser asignado a varias tareas.",
+          "C: Cada recurso puede ser asignado a varias tareas, pero no a más de una al mismo tiempo.",
+          "D: No se requiere ninguna restricción sobre la asignación de recursos."
+      ],
+      "correct_answer": "A",
+      "explanation": null,
+      "image": null
+    },
+    {
+      "id": 33,
+      "text": "Determinar cuáles de los siguientes subconjuntos de $\\mathbb{R}^2$ son conexos bajo la topología estándar. (Elegir todas las respuestas correctas.)",
+      "options": [
+          "A: $\\{(x, y) \\in \\mathbb{R}^2 \\mid x^2 = 1\\}$",
+          "B: $\\{(x, y) \\in \\mathbb{R}^2 \\mid x^2 + y^2 = 1\\}$",
+          "C: $\\{(x, y) \\in \\mathbb{R}^2 \\mid x^2 - y^2 = 1\\}$",
+          "D: $\\{(x, y) \\in \\mathbb{R}^2 \\mid x^2 = y^2\\}$"
+      ],
+      "correct_answer": "B, D",
+      "explanation": null,
+      "image": null
+    },
+    {
+      "id": 34,
+      "text": "Alicia desea mandarle a Beto un mensaje encriptado utilizando el protocolo ElGamal. Beto elige como parámetros $q = 17$ como orden del grupo, $g = 3$ como generador y $b=15$ como número secreto. Notemos que con estos datos, la llave pública para la encriptación de mensajes está dada por $(q,g,e)$ donde $e = 6$. Utilizando esta información, Alicia le manda a Beto el mensaje cifrado $(c_1, c_2) = (5, 8)$, donde $c_1$ codifica el secreto compartido y $c_2$ codifica el mensaje plano. ¿Cuál es el valor del mensaje original $m$ que Alicia deseaba comunicar a Beto?",
+      "options": [
+          "A: 5",
+          "B: 10",
+          "C: 6",
+          "D: 8"
+      ],
+      "correct_answer": "C",
+      "explanation": null,
+      "image": null
+    },
+    {
+      "id": 35,
+      "text": "Dado el siguiente par de padres representados en forma binaria: Padre 1: 10110110, Padre 2: 01001001. Si se aplica cruce de un punto en la posición 4 (contando desde la izquierda y comenzando en 1), ¿cuál es la descendencia generada?",
+      "options": [
+          "A: Hijo 1: 10101001, Hijo 2: 01010110",
+          "B: Hijo 1: 10111100, Hijo 2: 01000011",
+          "C: Hijo 1: 10111001, Hijo 2: 01000110",
+          "D: Hijo 1: 10110110, Hijo 2: 01001001"
+      ],
+      "correct_answer": "C",
+      "explanation": null,
+      "image": null
+    },
+    {
+      "id": 36,
+      "text": "Se han generado los siguientes hijos después de aplicar un operador de cruce: Padre 1: 11011001, Padre 2: 00100110, Hijo 1: 11010010, Hijo 2: 00101101. Si el cruce ocurrió en una única posición, ¿en qué posición se aplicó el operador?",
+      "options": [
+          "A: Después de la posición 3",
+          "B: Después de la posición 4",
+          "C: Después de la posición 5",
+          "D: Después de la posición 6"
+      ],
+      "correct_answer": "B",
+      "explanation": null,
+      "image": null
+    },
+    {
+      "id": 37,
+      "text": "¿Cuál es el rol de una filtración en la homología persistente?",
+      "options": [
+          "A: Identificar la evolución de las características topológicas del conjunto de datos a distintas escalas.",
+          "B: Calcular la transformada de Fourier del conjunto de datos.",
+          "C: Eliminar los puntos con ruido.",
+          "D: Generar muestras aleatorias a partir del conjunto de datos."
+      ],
+      "correct_answer": "A",
+      "explanation": null,
+      "image": null
+    },
+    {
+      "id": 38,
+      "text": "En un problema de asignación en el que se asignan recursos (trabajadores) a tareas, ¿cuál es la restricción adecuada para garantizar que cada trabajador se asigne a una única tarea?",
+      "options": [
+          "A: La suma de todas las asignaciones de un trabajador a las tareas debe ser mayor o igual a 1.",
+          "B: La suma de todas las asignaciones de un trabajador a las tareas debe ser menor o igual a 1.",
+          "C: La suma de todas las asignaciones de las tareas a los recursos debe ser igual a 1.",
+          "D: La suma de todas las asignaciones de un trabajador a las tareas debe ser igual a 1."
+      ],
+      "correct_answer": "D",
+      "explanation": null,
+      "image": null
+    },
+    {
+      "id": 39,
+      "text": "Se tienen los siguientes padres en un algoritmo genético: Padre 1: ABCDE, Padre 2: 12345. Después de aplicar un cruce de dos puntos se obtienen los siguientes hijos: Hijo 1: A23DE, Hijo 2: 1BC45. ¿En qué posiciones se realizaron los puntos de corte?",
+      "options": [
+          "A: Después de la primera y tercera posición",
+          "B: Después de la cuarta y quinta posición",
+          "C: Después de la segunda y tercera posición",
+          "D: Después de la segunda y cuarta posición"
+      ],
+      "correct_answer": "A",
+      "explanation": null,
+      "image": null
+    },
+    {
+      "id": 40,
+      "text": "¿Cuál sería la variable de decisión en un problema de asignación para un modelo que tiene como objetivo asignar empleados a proyectos, minimizando el costo de asignación?",
+      "options": [
+          "A: El costo total de todos los empleados involucrados.",
+          "B: La asignación de empleados a proyectos, donde cada variable toma un valor 1 si un empleado está asignado al proyecto y 0 si no lo está.",
+          "C: La cantidad de proyectos que cada empleado completará.",
+          "D: El número de empleados disponibles para asignar."
+      ],
+      "correct_answer": "B",
+      "explanation": null,
+      "image": null
+    },
+    {
+      "id": 41,
+      "text": "Supongamos que trabajamos sobre el campo finito con orden $p = 5$, y consideremos la curva elíptica $y^2 = x^3 + x + 1$. Dado $P = (2, 1)$, encontrar $Q = 3P$.",
+      "options": [
+          "A: $Q = (3, 4)$",
+          "B: $Q = (2, 4)$",
+          "C: $Q = (3, 1)$",
+          "D: $Q = O$ (La identidad en la curva elíptica)"
+      ],
+      "correct_answer": "D",
+      "explanation": null,
+      "image": null
+    },
+    {
+      "id": 42,
+      "text": "Un problema de asignación busca emparejar $m$ conductores con $m$ vehículos para minimizar costos. Se plantea la siguiente restricción: $\\sum_{i=1}^m \\sum_{j=1}^m x_{ij} = m$. ¿Qué limitación tiene esta restricción?",
+      "options": [
+          "A: No garantiza que la asignación sea uno a uno.",
+          "B: No garantiza que cada vehículo reciba un conductor.",
+          "C: No garantiza que cada conductor reciba un vehículo.",
+          "D: No tiene problemas, es una restricción correcta."
+      ],
+      "correct_answer": "A",
+      "explanation": null,
+      "image": null
+    },
+    {
+      "id": 43,
+      "text": "Determinar cuáles de los siguientes subconjuntos de $\\mathbb{R}$ son cerrados bajo la topología estándar. (Elegir todas las respuestas correctas.)",
+      "options": [
+          "A: $(0, \\infty)$",
+          "B: $(0,1)$",
+          "C: $[0, 1]$",
+          "D: $[0, \\infty)$"
+      ],
+      "correct_answer": "A, C",
+      "explanation": null,
+      "image": null
+    },
+    {
+      "id": 44,
+      "text": "Para el algoritmo de encriptación RSA, eligiremos $p = 7, q = 11$ para obtener $n = pq = 77$ y $\\lambda(n) = \\text{mcm}(p - 1, q - 1) = 30$. Si la llave pública está dada por $(n, e) = (77, 7)$, encontrar el valor de $d < \\lambda(n)$ para que $(n, d)$ sea la llave privada.",
+      "options": [
+          "A: 43",
+          "B: 16",
+          "C: 7",
+          "D: 13"
+      ],
+      "correct_answer": "D",
+      "explanation": null,
+      "image": null
+    },
+    {
+      "id": 45,
+      "text": "En un problema de asignación con costos variables, se quiere minimizar la función objetivo: $\\sum_{i=1}^n \\sum_{j=1}^n c_{ij} x_{ij}$ donde $c_{ij}$ es el costo de asignar el recurso $i$ a la tarea $j$. Si no se incluyen restricciones adecuadas, ¿qué efecto podría tener esto en la solución del problema?",
+      "options": [
+          "A: Se podrían obtener soluciones en las que $x_{ij}$ no sea binaria",
+          "B: Se podrían asignar múltiples recursos a la misma tarea.",
+          "C: Algunas tareas podrían no recibir ningún recurso.",
+          "D: Todas las anteriores."
+      ],
+      "correct_answer": "D",
+      "explanation": null,
+      "image": null
+    },
+    {
+      "id": 46,
+      "text": "Encuentre el inverso multiplicativo de 29 en $\\mathbb{Z}/97\\mathbb{Z}$.",
+      "options": [
+          "A: 87",
+          "B: 37",
+          "C: $\\frac{1}{29}$",
+          "D: 45"
+      ],
+      "correct_answer": "A",
+      "explanation": null,
+      "image": null
+    },
+    {
+      "id": 47,
+      "text": "En un problema de asignación con $m$ recursos y $n$ tareas, ¿cómo se representaría la función objetivo si se desea minimizar el costo de asignación?",
+      "options": [
+          "A: Maximizar la cantidad de tareas asignadas.",
+          "B: Maximizar la asignación de recursos a las tareas con menores costos.",
+          "C: Minimizar la suma de los costos de asignación entre todos los recursos y todas las tareas.",
+          "D: Minimizar el número total de recursos asignados."
+      ],
+      "correct_answer": "C",
+      "explanation": null,
+      "image": null
+    },
+    {
+      "id": 48,
+      "text": "¿Cuál de los siguientes enunciados describe mejor la interpretación de los números de Betti?",
+      "options": [
+          "A: Las diferentes medias de nuestros datos",
+          "B: La media, varianza y asimetría estadística de los conjuntos de datos",
+          "C: El número total de vértices en una representación gráfica de los datos",
+          "D: El número de componentes conexas, lazos y hoyos en el espacio"
+      ],
+      "correct_answer": "D",
+      "explanation": null,
+      "image": null
+    },
+    {
+      "id": 49,
+      "text": "Si estamos resolviendo un problema de asignación de recursos, y tenemos una variable de decisión, $\\alpha_{ij}$, ¿qué representa esta variable en el contexto del modelo?",
+      "options": [
+          "A: La cantidad de recursos disponibles.",
+          "B: El costo total de asignar recursos a las tareas.",
+          "C: Si el recurso $i$ es asignado a la tarea $j$ (1 si asignado, 0 si no asignado).",
+          "D: La cantidad de tareas asignadas a un recurso."
+      ],
+      "correct_answer": "C",
+      "explanation": null,
+      "image": null
+    },
+    {
+      "id": 50,
+      "text": "Determinar cuáles de los siguientes conjuntos son homotópicamente equivalentes al círculo $S^1 = \\{(x, y) \\in \\mathbb{R}^2 \\mid x^2 + y^2 = 1\\}$.",
+      "options": [
+          "A: La esfera con el polo norte y el polo sur removido",
+          "B: El plano $\\mathbb{R}^2$",
+          "C: La esfera con el polo norte removido",
+          "D: $\\mathbb{R}^2$ con el origen removido"
+      ],
+      "correct_answer": "A, D",
+      "explanation": null,
+      "image": null
+    },
+    {
+        "id": 51,
+        "text": "Un algoritmo de optimización bioinspirado utiliza una población de soluciones candidatas organizadas en tres grupos con funciones específicas: Exploradoras, Empleadas y Observadoras. ¿Qué algoritmo es?",
+        "options": [
+            "A: Algoritmo de Optimización de Colonias de Hormigas (ACO)",
+            "B: Algoritmo de Enjambre de Partículas (PSO)",
+            "C: Algoritmo de Abejas (BA)",
+            "D: Algoritmo Genético (GA)"
+        ],
+        "correct_answer": "C",
+        "explanation": "El Algoritmo de Abejas (BA) utiliza esta estructura con roles específicos para exploración y explotación.",
+        "image": null
+    },
+    {
+        "id": 52,
+        "text": "Si un nodo de transbordo tiene más flujo de salida que de entrada, ¿qué significa esto?",
+        "options": [
+            "A: Indica que el nodo tiene costos negativos de transporte.",
+            "B: Hay un error en la formulación del modelo.",
+            "C: Se ha generado un excedente de bienes en el nodo.",
+            "D: No afecta la solución del problema."
+        ],
+        "correct_answer": "B",
+        "explanation": "En un modelo correctamente formulado, el flujo de entrada debe igualar al de salida en nodos de transbordo.",
+        "image": null
+    },
+    {
+        "id": 53,
+        "text": "En la formulación matemática del problema de transporte, ¿qué representan las variables de decisión?",
+        "options": [
+            "A: Los costos unitarios de transporte en cada ruta.",
+            "B: La cantidad de bienes transportados de cada origen a cada destino.",
+            "C: La demanda total de cada destino.",
+            "D: La oferta total en cada origen."
+        ],
+        "correct_answer": "B",
+        "explanation": "Las variables de decisión en problemas de transporte representan cantidades a transportar entre nodos.",
+        "image": null
+    },
+    {
+      "id": 54,
+      "text": "¿Cuál es la función objetivo en un problema de transporte?",
+      "options": [
+          "A: Maximizar la cantidad total de productos transportados.",
+          "B: Minimizar el costo total de transportar productos desde los puntos de origen a los destinos.",
+          "C: Maximizar el beneficio total de enviar productos.",
+          "D: Minimizar la cantidad de productos transportados."
+      ],
+      "correct_answer": "B",
+      "explanation": null,
+      "image": null
+    },
+    {
+        "id": 55,
+        "text": "¿Qué papel juegan los nodos de transbordo en la estructura de la red?",
+        "options": [
+            "A: Sirven solo para aumentar la complejidad del modelo sin impacto en la solución.",
+            "B: Permiten dividir envíos en múltiples rutas o consolidarlos antes de llegar a su destino final.",
+            "C: Reducen los costos de transporte automáticamente.",
+            "D: Actúan como orígenes y destinos adicionales."
+        ],
+        "correct_answer": "B",
+        "explanation": "Los nodos de transbordo permiten flexibilidad en la distribución sin ser origen/destino final.",
+        "image": null
+    },
+    {
+        "id": 56,
+        "text": "En un algoritmo de optimización basado en hormigas (ACO), la cantidad de feromonas depositada en un arco $(i,j)$, después de la construcción de una ruta se modela como $\\Delta\\tau_{ij}=\\frac{Q}{L}$ donde $Q$ es una constante y $L$ la longitud de la ruta encontrada. Si varias hormigas han generado diferentes soluciones en la misma iteración con valores de $L$ iguales a $80, 50$ y $40$ y $Q=100$ ¿Cuál es la cantidad total de feromonas que se depositará en un arco recorrido por todas ellas?",
+        "options": [
+            "A: 1.25",
+            "B: 3.25",
+            "C: 4.5",
+            "D: 5.75"
+        ],
+        "correct_answer": "D",
+        "explanation": "Se calcula como $\\sum \\frac{Q}{L} = \\frac{100}{80} + \\frac{100}{50} + \\frac{100}{40} = 5.75$.",
+        "image": null
+    },
+    {
+        "id": 57,
+        "text": "En PSO, si el factor de inercia $w$ es muy alto, ¿qué efecto tiene?",
+        "options": [
+            "A: Las partículas se comportan aleatoriamente sin aprendizaje.",
+            "B: Las partículas se detienen rápidamente.",
+            "C: Convergen rápidamente a un óptimo global.",
+            "D: Las partículas exploran más agresivamente y tardan en converger."
+        ],
+        "correct_answer": "D",
+        "explanation": "Un $w$ alto mantiene alta la velocidad de exploración, retardando la convergencia.",
+        "image": null
+    },
+    {
+        "id": 58,
+        "text": "¿Qué condición debe cumplirse para que un problema de transporte esté equilibrado?",
+        "options": [
+            "A: Oferta total $=$ Demanda total",
+            "B: Oferta $>$ Demanda",
+            "C: Oferta $<$ Demanda",
+            "D: No se requiere condición."
+        ],
+        "correct_answer": "A",
+        "explanation": "El equilibrio es fundamental para la aplicabilidad del modelo clásico de transporte.",
+        "image": null
+    },
+    {
+        "id": 59,
+        "text": "¿Cuál es la principal diferencia entre problemas de transporte y transbordo?",
+        "options": [
+            "A: Los problemas de transbordo incluyen nodos intermedios para transferencia.",
+            "B: El transporte no usa restricciones de capacidad.",
+            "C: El transbordo no requiere solución óptima.",
+            "D: El transporte solo considera destinos finales."
+        ],
+        "correct_answer": "A",
+        "explanation": "Los nodos de transbordo son la característica distintiva.",
+        "image": null
+    },
+    {
+        "id": 60,
+        "text": "Si un problema requiere minimizar simultáneamente tiempo y costo, ¿qué tipo de problema es?",
+        "options": [
+            "A: Problema de búsqueda local",
+            "B: Problema de asignación",
+            "C: Problema combinatorio",
+            "D: Problema multiobjetivo"
+        ],
+        "correct_answer": "D",
+        "explanation": "La optimización multiobjetivo maneja varios objetivos simultáneamente.",
+        "image": null
+    },
+    {
+      "id": 61,
+      "text": "¿Cuál de los siguientes problemas puede modelarse como un problema de transbordo?",
+      "options": [
+          "A: Programación de la producción en una planta de manufactura.",
+          "B: Distribución de productos desde fábricas a centros de distribución antes de llegar a tiendas.",
+          "C: Asignación de empleados a diferentes turnos de trabajo.",
+          "D: Determinación de la ruta más corta entre dos ciudades."
+      ],
+      "correct_answer": "B",
+      "explanation": "El transbordo requiere nodos intermedios (centros de distribución) entre orígenes y destinos finales.",
+      "image": null
+    },
+    {
+        "id": 62,
+        "text": "En un problema de transporte con $m$ fábricas y $n$ clientes, la restricción $\\sum_{i=1}^m x_{ij} \\leq d_j$ tiene qué problema:",
+        "options": [
+            "A: Permite demanda insatisfecha.",
+            "B: Permite exceder la oferta.",
+            "C: Ignora los costos.",
+            "D: Es correcta."
+        ],
+        "correct_answer": "A",
+        "explanation": "La desigualdad ($\\leq$) permite que $\\sum x_{ij} < d_j$, es decir, demanda no cubierta.",
+        "image": null
+    },
+    {
+      "id": 63,
+      "text": "En un problema de asignación con recursos limitados, la restricción para evitar sobre-asignación es:",
+      "options": [
+          "A: $\\sum_j x_{ij} \\leq \\text{recursos disponibles}$.",
+          "B: $\\sum_i x_{ij} \\geq \\text{demanda}$.",
+          "C: $\\sum_j x_{ij} = 1$.",
+          "D: $x_{ij} \\in \\{0,1\\}$."
+      ],
+      "correct_answer": "A",
+      "explanation": "La suma por filas (recursos) no debe exceder su disponibilidad.",
+      "image": null
+    },
+    {
+      "id": 64,
+      "text": "¿Cuál restricción NO es parte del problema de transbordo?",
+      "options": [
+          "A: Conservación de flujo en nodos intermedios.",
+          "B: Flujo máximo en arcos (cada nodo de transbordo).",
+          "C: Oferta en orígenes.",
+          "D: Demanda en destinos."
+      ],
+      "correct_answer": "B",
+      "explanation": "Las restricciones de flujo máximo son opcionales y no inherentes al modelo básico de transbordo.",
+      "image": null
+    },
+    {
+        "id": 64,
+        "text": "En el algoritmo de Sistemas de Hormigas, la feromona depositada en un arco depende de:",
+        "options": [
+            "A: Un valor fijo predefinido.",
+            "B: La distancia total de la ruta.",
+            "C: La calidad de la solución encontrada.",
+            "D: El número de hormigas en la colonia."
+        ],
+        "correct_answer": "C",
+        "explanation": "La feromona $\\Delta \\tau_{ij} = \\frac{Q}{L}$ es inversamente proporcional a la longitud $L$ de la ruta.",
+        "image": null
+    },
+    {
+      "id": 65,
+      "text": "¿Cómo se representan matemáticamente los nodos de transbordo?",
+      "options": [
+          "A: Como nodos con oferta $+\\infty$.",
+          "B: Como nodos con oferta $=$ demanda.",
+          "C: Como nodos con oferta y demanda cero.",
+          "D: Como nodos sin restricciones."
+      ],
+      "correct_answer": "B",
+      "explanation": "En transbordo, el flujo que entra debe ser igual al que sale (oferta $=$ demanda en el nodo).",
+      "image": null
+  }
+
 ]
+
 
