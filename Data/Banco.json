@@ -861,7 +861,561 @@
       "correct_answer": "B",
       "explanation": "En transbordo, el flujo que entra debe ser igual al que sale (oferta $=$ demanda en el nodo).",
       "image": null
-  }
+    },
+    {
+      "id": 66,
+      "text": "Lee con atención los siguientes enunciados y selecciona la opción que explique correctamente cómo se pueden emplear los componentes principales en el análisis de datos.",
+      "options": [
+        "A: Las componentes principales son combinaciones aleatorias de las variables originales que permiten reducir la cantidad de datos sin cambiar su estructura interna.",
+        "B: Las componentes principales son los eigenvectores de la matriz de covarianza y representan las direcciones con menor variabilidad en los datos. Se utilizan para reducir el tiempo de cómputo en algoritmos de aprendizaje automático.",
+        "C: Las componentes principales indican las direcciones con menor variabilidad en los datos y provienen de la matriz Hessiana, lo que permite calcular derivadas en problemas de optimización.",
+        "D: Las componentes principales son los eigenvectores de la matriz de covarianza y representan las direcciones con mayor variabilidad en los datos. Se pueden usar para reducir el número de variables en un modelo de clasificación sin perder demasiada información."
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 67,
+      "text": "¿Cuál de los siguientes es un error de tipo I en una prueba de hipótesis?",
+      "options": [
+        "A: Aceptar la hipótesis nula cuando es falsa.",
+        "B: No rechazar la hipótesis alternativa cuando es verdadera.",
+        "C: Rechazar la hipótesis nula cuando es verdadera.",
+        "D: No rechazar la hipótesis nula cuando es falsa."
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 68,
+      "text": "¿Qué problema se soluciona con la técnica de 'one-hot encoding'?",
+      "options": [
+        "A: Reducción de dimensionalidad",
+        "B: Falta de datos en algunas filas",
+        "C: Codificación de variables categóricas en valores numéricos",
+        "D: Valores atípicos en los datos"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 69,
+      "text": "Si dos conjuntos de datos tienen la misma media pero diferentes desviaciones estándar, ¿qué se puede concluir sobre la distribución de los datos?",
+      "options": [
+        "A: El conjunto con mayor desviación estándar tiene datos más dispersos alrededor de la media.",
+        "B: Los datos en ambos conjuntos están distribuidos de manera idéntica.",
+        "C: La mediana también debe ser igual en ambos conjuntos.",
+        "D: La varianza en ambos conjuntos es la misma, ya que la media es igual."
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 70,
+      "text": "¿Qué método se puede usar para determinar los valores óptimos de 'p' y 'q' en un modelo ARIMA?",
+      "options": [
+        "A: Autocorrelación y autocorrelación parcial",
+        "B: Regresión logística",
+        "C: Test de normalidad",
+        "D: Método del codo"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 71,
+      "text": "¿Qué significa un p-valor de 0.03 en una prueba de hipótesis?",
+      "options": [
+        "A: Que si la hipótesis nula fuera cierta, la probabilidad de obtener un resultado tan extremo como el observado sería del 3%.",
+        "B: Que hay un 3% de probabilidad de que la hipótesis alternativa sea verdadera.",
+        "C: Que la hipótesis alternativa debe ser aceptada sin ninguna duda.",
+        "D: Que la hipótesis nula es verdadera con un 97% de confianza."
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 72,
+      "text": "En una prueba de hipótesis, ¿qué representa el nivel de significancia ($\\alpha$)?",
+      "options": [
+        "A: La probabilidad de obtener un valor de p menor que 0.05.",
+        "B: La probabilidad de rechazar la hipótesis nula cuando es verdadera.",
+        "C: La probabilidad de aceptar una hipótesis nula cuando es falsa.",
+        "D: La probabilidad de que la hipótesis alternativa sea correcta."
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 73,
+      "text": "Determinar cuáles de los siguientes subconjuntos de $\\mathbb{R}$ son cerrados bajo la topología estándar.",
+      "options": [
+        "A: $[0,1]$",
+        "B: $(0, \\infty)$",
+        "C: $[0, 1]$",
+        "D: $[0, \\infty)$"
+      ],
+      "correct_answer": "C, D"
+    },
+    {
+      "id": 74,
+      "text": "En el modelo ARIMA(p,d,q), ¿qué representa el parámetro 'd'?",
+      "options": [
+        "A: Número de términos de media móvil",
+        "B: Orden de diferenciación",
+        "C: Número de rezagos en la serie",
+        "D: Coeficiente de estacionalidad"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 75,
+      "text": "¿Cuál de las siguientes afirmaciones sobre la varianza es correcta?",
+      "options": [
+        "A: La varianza mide la tendencia central de los datos.",
+        "B: La varianza siempre tiene las mismas unidades que los datos originales.",
+        "C: Si la varianza es cero, todos los valores en el conjunto de datos son iguales.",
+        "D: La varianza puede tomar valores negativos si los datos están sesgados."
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 76,
+      "text": "En un gráfico de cajas y bigotes (boxplot), ¿qué indica la longitud de los bigotes?",
+      "options": [
+        "A: La dispersión de los datos dentro de 1.5 veces el rango intercuartílico (IQR).",
+        "B: La correlación entre dos variables.",
+        "C: El valor exacto de la media.",
+        "D: La cantidad de datos en el conjunto."
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 77,
+      "text": "¿Por qué es útil el análisis topológico de datos en el análisis de conjuntos de datos de alta dimensión?",
+      "options": [
+        "A: Puede reducir el número de dimensiones sin perder información.",
+        "B: Etiqueta los datos de manera automática.",
+        "C: Nos ayuda a eliminar el ruido en los datos.",
+        "D: Nos ayuda a encontrar estructuras estables en nuestro conjunto de datos que son independientes de la escala."
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 78,
+      "text": "¿Cuál de los siguientes formatos de archivo es más eficiente para almacenar grandes volúmenes de datos estructurados?",
+      "options": [
+        "A: TXT",
+        "B: CSV",
+        "C: Parquet",
+        "D: JSON"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 79,
+      "text": "¿Cuál de los siguientes conjuntos de medidas de dispersión se ve más afectado por valores atípicos en un conjunto de datos?",
+      "options": [
+        "A: La moda y el rango intercuartílico.",
+        "B: El rango intercuartílico y la mediana.",
+        "C: La varianza y la desviación estándar.",
+        "D: La mediana y la desviación media absoluta."
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 80,
+      "text": "¿Qué medida de tendencia central es más sensible a los valores atípicos en un conjunto de datos?",
+      "options": [
+        "A: Rango.",
+        "B: Media.",
+        "C: Moda.",
+        "D: Mediana."
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 81,
+      "text": "¿Qué información clave proporciona un gráfico de dispersión en un análisis estadístico?",
+      "options": [
+        "A: La varianza de una única variable.",
+        "B: La correlación exacta entre dos variables.",
+        "C: La relación entre dos variables cuantitativas.",
+        "D: La distribución de una variable categórica."
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 82,
+      "text": "¿Cuál de los siguientes modelos es más adecuado para analizar series de tiempo con un componente estacional?",
+      "options": [
+        "A: K-means",
+        "B: Regresión lineal",
+        "C: ARIMA",
+        "D: SARIMA"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 83,
+      "text": "Si un conjunto de datos tiene una distribución simétrica, ¿cuál de las siguientes afirmaciones es verdadera?",
+      "options": [
+        "A: La media es mayor que la mediana.",
+        "B: La mediana es mayor que la moda.",
+        "C: La media es menor que la moda.",
+        "D: La media, mediana y moda son iguales."
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 84,
+      "text": "Un investigador quiere determinar si el tiempo promedio que tardan los clientes en una tienda ha cambiado con respecto al año pasado. ¿Cuál de las siguientes pruebas de hipótesis sería la más adecuada para este caso?",
+      "options": [
+        "A: Prueba ANOVA.",
+        "B: Prueba t para una muestra.",
+        "C: Prueba de chi-cuadrado de independencia.",
+        "D: Prueba t para muestras independientes."
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 85,
+      "text": "¿Cuál de los siguientes pasos es fundamental antes de aplicar un modelo ARIMA a una serie de tiempo?",
+      "options": [
+        "A: Realizar una regresión lineal.",
+        "B: Convertir la serie en datos categóricos.",
+        "C: Comprobar la estacionariedad.",
+        "D: Usar one-hot encoding."
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 86,
+      "text": "¿Cuál de las siguientes afirmaciones describe mejor la diferencia conceptual entre la media y la mediana?",
+      "options": [
+        "A: La media es más sensible a valores extremos que la mediana, por lo que en distribuciones sesgadas la mediana suele representar mejor el centro de los datos.",
+        "B: La media y la mediana siempre coinciden en cualquier distribución, ya que ambas miden la tendencia central de la misma manera.",
+        "C: La media siempre es un valor representativo del conjunto de datos, mientras que la mediana solo se usa en distribuciones simétricas.",
+        "D: La mediana se calcula sumando todos los valores y dividiendo por la cantidad total de datos, mientras que la media es simplemente el valor central de la distribución ordenada."
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 87,
+      "text": "En el siguiente código Pandas, ¿qué operación devuelve un subconjunto con las filas desde la segunda hasta la cuarta (índices 'b' a 'd') y solo las columnas 'A' y 'C'?",
+      "code": "import pandas as pd\ndata = {'A': [10, 20, 30, 40, 50],\n    'B': [5, 15, 25, 35, 45],\n    'C': ['x', 'y', 'z', 'w', 'v']}\ndf = pd.DataFrame(data, index=['a', 'b', 'c', 'd', 'e'])",
+      "options": [
+        "A: df.iloc[2:4, [0, 2]]",
+        "B: df.loc['b':'d', ['A', 'C']]",
+        "C: df.loc['b':'d', [0, 2]]",
+        "D: df.loc[1:4, ['A', 'C']]"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 88,
+      "text": "En una prueba t de Student para dos muestras independientes, ¿cuál es el propósito de esta prueba?",
+      "options": [
+        "A: Comparar la media de una muestra con una media conocida de la población.",
+        "B: Comparar la mediana de dos muestras para determinar la igualdad de distribuciones.",
+        "C: Comparar las medias de dos muestras independientes para determinar si son significativamente diferentes.",
+        "D: Comparar las medias de dos muestras dependientes."
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 89,
+      "text": "En ciencia de datos, ¿qué se entiende por transformación de datos?",
+      "options": [
+        "A: Cambiar la estructura del conjunto de datos",
+        "B: Eliminar variables no significativas",
+        "C: Convertir datos cualitativos en cuantitativos",
+        "D: Aplicar técnicas como escalado, normalización o logaritmos"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 90,
+      "text": "¿Cuál de los siguientes valores describe mejor la variabilidad de un conjunto de datos?",
+      "options": [
+        "A: Desviación estándar.",
+        "B: Moda.",
+        "C: Mediana.",
+        "D: Media."
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 91,
+      "text": "Determinar cuáles de los siguientes conjuntos son homotópicamente equivalentes al círculo $S^1 = \\{(x, y) \\in \\mathbb{R}^2 \\mid x^2 + y^2 = 1\\}$",
+      "options": [
+        "A: El plano $\\mathbb{R}^2$",
+        "B: $\\mathbb{R}^2$ con el origen removido",
+        "C: La esfera con el polo norte y el polo sur removido",
+        "D: La esfera con el polo norte removido"
+      ],
+      "correct_answer": "B, C"
+    },
+    {
+      "id": 92,
+      "text": "¿Cuál es el propósito principal de la estadística inferencial?",
+      "options": [
+        "A: Hacer predicciones o inferencias sobre una población basándose en una muestra.",
+        "B: Organizar y presentar los datos de manera resumida.",
+        "C: Calcular la media y la mediana de un conjunto de datos.",
+        "D: Describir los datos de una muestra."
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 93,
+      "text": "¿Qué técnica se usa comúnmente para manejar valores faltantes en un conjunto de datos?",
+      "options": [
+        "A: Todas las anteriores",
+        "B: Imputación con la media",
+        "C: Uso de modelos predictivos",
+        "D: Eliminación de registros"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 94,
+      "text": "Dado el siguiente código Pandas, ¿cuál es la forma correcta de unir df1 y df2 usando los índices?",
+      "code": "df1 = pd.DataFrame({'Nombre': ['Ana', 'Luis', 'Carlos']}, index=[1, 2, 3])\ndf2 = pd.DataFrame({'Edad': [25, 30, 35]}, index=[2, 3, 4])",
+      "options": [
+        "A: df1.join(df2, how='right', on='ID')",
+        "B: df1.join(df2, how='inner')",
+        "C: df1.join(df2, on='ID')",
+        "D: df1.join(df2, how='outer', on='Nombre')"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 95,
+      "text": "¿Qué gráfica es más adecuada para representar la distribución de una variable categórica?",
+      "options": [
+        "A: Diagrama de dispersión.",
+        "B: Gráfico de barras.",
+        "C: Gráfico de cajas.",
+        "D: Histograma."
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 96,
+      "text": "¿Qué hace la función de autocorrelación parcial (PACF) en el análisis de series de tiempo?",
+      "options": [
+        "A: Mide la dependencia de un punto con su pasado después de eliminar efectos intermedios",
+        "B: Indica si la serie es estacionaria",
+        "C: Predice valores futuros",
+        "D: Identifica patrones de tendencia"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 97,
+      "text": "Si el coeficiente de asimetría de una distribución es negativo, ¿qué significa esto?",
+      "options": [
+        "A: Que la distribución tiene una cola más larga hacia la izquierda",
+        "B: Que la distribución es simétrica",
+        "C: Que la moda es mayor que la media y la mediana",
+        "D: Que la mediana es mayor que la moda, pero menor que la media"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 98,
+      "text": "¿Qué tipo de prueba estadística es más adecuada para analizar la relación entre dos variables categóricas?",
+      "options": [
+        "A: Análisis de varianza (ANOVA)",
+        "B: Prueba t de Student",
+        "C: Prueba de chi-cuadrado",
+        "D: Regresión lineal"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 99,
+      "text": "Dado el siguiente DataFrame, ¿qué expresión devuelve solo las filas donde la edad es mayor a 28?",
+      "code": "df = pd.DataFrame({'Nombre': ['Ana', 'Luis', 'Carlos', 'Sofia'], 'Edad': [25, 30, 35, 28]})",
+      "options": [
+        "A: df.loc[df['Edad'] >= 28]",
+        "B: df.loc[df['Edad'] < 28]",
+        "C: df.query(Edad > 28)",
+        "D: df.query(\"Edad > 28\")"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 100,
+      "text": "¿Cuál de los siguientes NO es un paso en la preparación de datos?",
+      "options": [
+        "A: Normalización de datos",
+        "B: Limpieza de datos",
+        "C: Análisis de correlación",
+        "D: Manejo de valores faltantes"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 101,
+      "text": "Consideremos el toro $T = S^1 \\times S^1$, donde $S^1 = \\{(x, y) \\in \\mathbb{R}^2 \\mid x^2 + y^2 = 1\\}$ es el círculo unitario. ¿Cuáles son los números de Betti del toro $T$?",
+      "options": [
+        "A: (1,0,1)",
+        "B: (1,2,1)",
+        "C: (1,1,1)",
+        "D: (2,1,2)"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 102,
+      "text": "Consideremos la esfera unitaria $S^2 = \\{(x, y, z) \\in \\mathbb{R}^3 \\mid x^2 + y^2 + z^2 = 1\\}$. ¿Cuáles son sus números de Betti?",
+      "options": [
+        "A: (2,1,2)",
+        "B: (1,1,1)",
+        "C: (1,2,1)",
+        "D: (1,0,1)"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 103,
+      "text": "Determinar cuáles de los siguientes subconjuntos de $\\mathbb{R}^2$ son conexos bajo la topología estándar.",
+      "options": [
+        "A: $\\{(x, y) \\in \\mathbb{R}^2 \\mid x^2 = 1\\}$",
+        "B: $\\{(x, y) \\in \\mathbb{R}^2 \\mid x^2 + y^2 = 1\\}$",
+        "C: $\\{(x, y) \\in \\mathbb{R}^2 \\mid x^2 - y^2 = 1\\}$",
+        "D: $\\{(x, y) \\in \\mathbb{R}^2 \\mid x^2 = y^2\\}$"
+      ],
+      "correct_answer": "B, D"
+    },
+    {
+      "id": 104,
+      "text": "¿Cuál es el rol de una filtración en la homología persistente?",
+      "options": [
+        "A: Identificar la evolución de las características topológicas del conjunto de datos a distintas escalas",
+        "B: Calcular la transformada de Fourier del conjunto de datos",
+        "C: Eliminar los puntos con ruido",
+        "D: Generar muestras aleatorias a partir del conjunto de datos"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 105,
+      "text": "¿Cuál de los siguientes enunciados describe mejor la interpretación de los números de Betti?",
+      "options": [
+        "A: Las diferentes medias de nuestros datos",
+        "B: La media, varianza y asimetría estadística de los conjuntos de datos",
+        "C: El número total de vértices en una representación gráfica de los datos",
+        "D: El número de componentes conexas, lazos y hoyos en el espacio"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 106,
+      "text": "¿Qué tipo de gráfico es más adecuado para visualizar la distribución de una variable cuantitativa?",
+      "options": [
+        "A: Diagrama de caja",
+        "B: Diagrama de dispersión",
+        "C: Histograma",
+        "D: Gráfico de barras"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 107,
+      "text": "¿Cuál es la ventaja principal de usar gráficos interactivos en análisis de datos?",
+      "options": [
+        "A: Generar análisis automáticos",
+        "B: Permiten filtrar y explorar los datos en profundidad",
+        "C: Aumentan la precisión de los modelos predictivos",
+        "D: Reducen el tamaño del conjunto de datos"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 108,
+      "text": "¿Cuál de los siguientes gráficos se utiliza comúnmente para evaluar la relación entre los valores observados y los valores predichos en la regresión lineal?",
+      "options": [
+        "A: Gráfico de barras",
+        "B: Histograma",
+        "C: Diagrama de cajas",
+        "D: Diagrama de dispersión"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 109,
+      "text": "¿Cuál de las siguientes afirmaciones sobre el rango intercuartílico (IQR) es verdadera?",
+      "options": [
+        "A: Un IQR de cero significa que la distribución es simétrica",
+        "B: Si el IQR es pequeño, significa que la media también es pequeña",
+        "C: El IQR mide la diferencia entre el primer y tercer cuartil, abarcando el 50% central de los datos",
+        "D: El IQR se ve muy afectado por valores atípicos extremos"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 110,
+      "text": "En un diagrama de dispersión, ¿qué indica la presencia de una nube de puntos con una clara tendencia ascendente?",
+      "options": [
+        "A: No hay relación entre las variables",
+        "B: Una correlación negativa",
+        "C: Una correlación positiva",
+        "D: Una distribución normal"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 111,
+      "text": "Dado el siguiente DataFrame, ¿qué operación devolvería la suma de 'Valor' para cada 'Categoria'?",
+      "code": "df = pd.DataFrame({'Categoria': ['A', 'B', 'A', 'B', 'A'], 'Valor': [10, 20, 30, 40, 50]})",
+      "options": [
+        "A: df.groupby('Categoria')['Valor'].count()",
+        "B: df.groupby('Categoria')['Valor'].sum()",
+        "C: df.groupby('Categoria').sum()",
+        "D: df.groupby('Valor')['Categoria'].sum()"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 112,
+      "text": "Si realizas una prueba de hipótesis con un nivel de significancia $\\alpha = 0.05$, ¿qué significa esto?",
+      "options": [
+        "A: Existe un chance del 95% de que la hipótesis nula sea verdadera",
+        "B: Existe un chance del 5% de rechazar incorrectamente la hipótesis nula cuando es verdadera",
+        "C: Existe un chance del 95% de aceptar la hipótesis nula",
+        "D: Existe un chance del 5% de que la hipótesis alternativa sea falsa"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 113,
+      "text": "Si la media de un conjunto de datos es 50 y la mediana es 40, ¿cómo está sesgada la distribución?",
+      "options": [
+        "A: No hay sesgo",
+        "B: Sesgo a la derecha",
+        "C: Sesgo a la izquierda",
+        "D: No se puede determinar"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 114,
+      "text": "Una empresa de análisis deportivo ha recopilado datos sobre el rendimiento de jugadores de baloncesto en diferentes habilidades. Después de aplicar PCA, encuentran que el primer componente principal (PC1) tiene altas cargas en velocidad y resistencia. ¿Cuál es la interpretación más adecuada?",
+      "options": [
+        "A: Los jugadores más veloces y resistentes también tienen mejor precisión en tiros",
+        "B: La precisión en tiros es el factor más importante para diferenciar a los jugadores",
+        "C: Los jugadores con mejor velocidad y resistencia son los mejores en todas las habilidades",
+        "D: La velocidad y la resistencia explican la mayor parte de la variabilidad en el rendimiento"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 115,
+      "text": "¿Cuál de las siguientes afirmaciones sobre la correlación es correcta?",
+      "options": [
+        "A: Una correlación de 1 indica una relación inversa perfecta",
+        "B: La correlación mide la relación causal entre variables",
+        "C: Una correlación de 0 significa que no hay relación lineal",
+        "D: El coeficiente de correlación puede ser mayor que 1"
+      ],
+      "correct_answer": "C"
+    }
 
 ]
 
