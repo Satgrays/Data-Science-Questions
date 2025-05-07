@@ -1912,7 +1912,7 @@
     },
     {
       "id": 154,
-      "text": "Se quiere implementar un clasificador binario para la detección de hepatitis. En este escenario, ¿es apropiado evaluar el modelo usando "precision" o "recall"? Asume que la categoría positiva es tener la enfermedad. ",
+      "text": "Se quiere implementar un clasificador binario para la detección de hepatitis. En este escenario, ¿es apropiado evaluar el modelo usando \"precision \" o \" recall \"? Asume que la categoría positiva es tener la enfermedad. ",
       "options": [
         "A: Ambas métricas son apropiadas.",
         "B: Recall",
@@ -2046,8 +2046,8 @@
       "options": [
         "A: Regresión lineal.",
         "B: Falta de conexión entre capas.",
-        "C: Subajuste ("underfitting").",
-        "D: Sobreajuste ("overfitting")."
+        "C: Subajuste (\"underfitting\").",
+        "D: Sobreajuste (\"overfitting\")."
       ],
       "correct_answer": "D",
       "explanation": null,
@@ -2081,7 +2081,7 @@
     },
     {
       "id": 167,
-      "text": "En un algoritmo de detección de spam, el 80% de los correos electrónicos de spam contienen la palabra "gratis", mientras que el 15% de los correos electrónicos que no son spam contienen la palabra "gratis". Si el 30% de los correos electrónicos son spam, ¿cuál es la probabilidad de que un correo electrónico que contiene la palabra "gratis" sea spam?",
+      "text": "En un algoritmo de detección de spam, el 80% de los correos electrónicos de spam contienen la palabra \"gratis\", mientras que el 15% de los correos electrónicos que no son spam contienen la palabra \"gratis \". Si el 30% de los correos electrónicos son spam, ¿cuál es la probabilidad de que un correo electrónico que contiene la palabra \"gratis\" sea spam?",
       "options": [
         "A: 0.65",
         "B: 0.696",
