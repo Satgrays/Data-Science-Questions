@@ -1818,5 +1818,330 @@
       "correct_answer": "C",
       "explanation": "La variable dependiente en un modelo de regresión lineal simple es la que se intenta predecir o explicar, que en este caso es $Y$. La variable independiente es $X$ y los coeficientes son $\\beta_0$ y $\\beta_1$.",
       "image": "./Images/2_3.png"
+    },
+    {
+      "id": 147,
+      "text": "Asume que tienes un clasificador binario que se entrenó con un conjunto de datos en el que número de elementos de la clase positiva (la etiqueta es un uno) es mucho menor al de la clase negativa (la etiqueta de estos elementos es un cero).  De las siguientes métricas, ¿cuál sería la métrica que no es recomendable para evaluar el rendimiento del clasificador?",
+      "options": [
+        "A: Precision",
+        "B: "F1-Score",
+        "C: Accuracy",
+        "D: Recall"
+      ],
+      "correct_answer": "C",
+      "explanation": null,
+      "image": null
+    },
+    {
+      "id": 148,
+      "text": "¿Para cuál de las siguientes tareas es más adecuada una Red Neuronal Convolucional (CNN)?",
+      "options": [
+        "A: Análisis de texto",
+        "B: Cálculo de probabilidades",
+        "C: Predicción de series temporales",
+        "D: Clasificación de imágenes"
+      ],
+      "correct_answer": "D",
+      "explanation": null,
+      "image": null
+    },
+    {
+      "id": 149,
+      "text": "¿Qué componente clave de una CNN permite reducir la dimensionalidad de las imágenes mientras mantiene características relevantes?",
+      "options": [
+        "A: Retropropagación",
+        "B: Función de activación",
+        "C: Capa de pooling",
+        "D: Capa de convolución"
+      ],
+      "correct_answer": "C",
+      "explanation": null,
+      "image": null
+    },
+    {
+      "id": 150,
+      "text": "¿Qué ventaja ofrece el uso de redes neuronales profundas en comparación con redes neuronales simples?",
+      "options": [
+        "A: Eliminar la necesidad de preprocesamiento de datos.",
+        "B: Reducción del costo computacional.",
+        "C: Entrenamiento más rápido.",
+        "D: Capacidad para aprender características complejas y abstractas"
+      ],
+      "correct_answer": "D",
+      "explanation": null,
+      "image": null
+    },
+    {
+      "id": 151,
+      "text": "¿Qué característica define al aprendizaje profundo (Deep Learning)?",
+      "options": [
+        "A: El uso exclusivo de datos estructurados.",
+        "B: La implementación de redes neuronales con múltiples capas ocultas.",
+        "C: El uso de algoritmos bayesianos.",
+        "D: La eliminación del entrenamiento supervisado."
+      ],
+      "correct_answer": "B",
+      "explanation": null,
+      "image": null
+    },
+    {
+      "id": 152,
+      "text": "Asume que tenemos un conjunto de entrenamiento en el que las clases no están balanceadas. Si estamos interesados en reducir la cantidad de falsos positivos, ¿cuál de las siguientes métricas sería la más relevante para evaluar qué tan bien está funcionando el clasificador binario?",
+      "options": [
+        "A: Precision",
+        "B: Accuracy",
+        "C: Recall",
+        "D: F1-Score"
+      ],
+      "correct_answer": "A",
+      "explanation": null,
+      "image": null
+    },
+    {
+      "id": 153,
+      "text": "Asume que tenemos un conjunto de entrenamiento en el que las clases no están balanceadas. Si estamos interesados en reducir la cantidad de falsos negativos, ¿cuál de las siguientes métricas sería la más relevante para evaluar qué tan bien está funcionando el clasificador binario?",
+      "options": [
+        "A: Precision",
+        "B: Accuracy",
+        "C: Recall",
+        "D: F1-Score"
+      ],
+      "correct_answer": "C",
+      "explanation": null,
+      "image": null
+    },
+    {
+      "id": 154,
+      "text": "Se quiere implementar un clasificador binario para la detección de hepatitis. En este escenario, ¿es apropiado evaluar el modelo usando "precision" o "recall"? Asume que la categoría positiva es tener la enfermedad. ",
+      "options": [
+        "A: Ambas métricas son apropiadas.",
+        "B: Recall",
+        "C: Precision",
+        "D: Ninguna"
+      ],
+      "correct_answer": "B",
+      "explanation": null,
+      "image": null
+    },
+    {
+      "id": 155,
+      "text": "¿Cuál es la principal ventaja de utilizar un enfoque bayesiano en el modelado estadístico?",
+      "options": [
+        "A: Permite incorporar información previa (a priori) en la estimación de parámetros.",
+        "B: No requiere datos previos para realizar predicciones.",
+        "C: Reduce el tiempo de entrenamiento del modelo.",
+        "D: Siempre proporciona resultados exactos sin importar los datos."
+      ],
+      "correct_answer": "A",
+      "explanation": null,
+      "image": null
+    },
+    {
+      "id": 156,
+      "text": "Se quiere implementar un clasificador binario para la detección de hepatitis. En este escenario, ¿son preferibles los falsos positivos o los falsos negativos? Asume que la categoría positiva es tener la enfermedad. ",
+      "options": [
+        "A: Ambos son graves",
+        "B: Falsos negativos",
+        "C: Falsos positivos",
+        "D: Ninguno es grave"
+      ],
+      "correct_answer": "B",
+      "explanation": null,
+      "image": null
+    },
+    {
+      "id": 157,
+      "text": "¿Cuál es uno de los principales desafíos del aprendizaje profundo?",
+      "options": [
+        "A: No permite la automatización de tareas.",
+        "B: Requiere grandes cantidades de datos y poder computacional.",
+        "C: Es más fácil de interpretar que los modelos tradicionales.",
+        "D: No puede manejar datos no estructurados."
+      ],
+      "correct_answer": "B",
+      "explanation": null,
+      "image": null
+    },
+    {
+      "id": 158,
+      "text": "¿Qué componente de una red neuronal es responsable de ajustar los pesos durante el entrenamiento?",
+      "options": [
+        "A: Algoritmo de retropropagación.",
+        "B: Función de pérdida.",
+        "C: Neurona de entrada.",
+        "D: Función de activación."
+      ],
+      "correct_answer": "A",
+      "explanation": null,
+      "image": null
+    },
+    {
+      "id": 159,
+      "text": "¿Qué técnica es fundamental para evitar el sobreajuste (overfitting) en una red neuronal?",
+      "options": [
+        "A: Reducir la cantidad de datos.",
+        "B: Usar más capas ocultas.",
+        "C: Aumentar el tamaño del lote de datos (batch size).",
+        "D: Aplicar regularización o dropout."
+      ],
+      "correct_answer": "D",
+      "explanation": null,
+      "image": null
+    },
+    {
+      "id": 160,
+      "text": "¿Cuál es el efecto de utilizar una tasa de aprendizaje demasiado alta al entrenar una red neuronal?",
+      "options": [
+        "A: El modelo se entrenará demasiado lento.",
+        "B: El modelo estará menos propenso al sobreajuste.",
+        "C: El modelo convergerá rápidamente a una solución óptima.",
+        "D: El modelo puede oscilar o no converger a una solución óptima."
+      ],
+      "correct_answer": "D",
+      "explanation": null,
+      "image": null
+    },
+    {
+      "id": 161,
+      "text": "¿Qué tipo de hardware suele ser más adecuado para entrenar modelos de aprendizaje profundo?",
+      "options": [
+        "A: CPU estándar",
+        "B: GPU (Unidad de Procesamiento Gráfico). ",
+        "C: Memoria RAM extendida.",
+        "D: SSD de alta velocidad."
+      ],
+      "correct_answer": "B",
+      "explanation": null,
+      "image": null
+    },
+    {
+      "id": 162,
+      "text": "¿Qué significa aplicar un filtro convolucional en procesamiento de imágenes?",
+      "options": [
+        "A: Transformar la imagen en texto.",
+        "B: Aumentar el tamaño de la imagen.",
+        "C: Aplicar un kernel para extraer características específicas.",
+        "D: Reducir la resolución de la imagen."
+      ],
+      "correct_answer": "C",
+      "explanation": null,
+      "image": null
+    },
+    {
+      "id": 163,
+      "text": "¿Cuál es el objetivo de una función de activación en una red neuronal?",
+      "options": [
+        "A: Ajustar los pesos durante el entrenamiento.",
+        "B: Normalizar los datos de entrada.",
+        "C: Introducir no linealidad al modelo.",
+        "D: Determinar cuántas capas ocultas se necesitan."
+      ],
+      "correct_answer": "C",
+      "explanation": null,
+      "image": null
+    },
+    {
+      "id": 164,
+      "text": "¿Cuál de los siguientes es un problema común en redes neuronales totalmente conectadas?",
+      "options": [
+        "A: Regresión lineal.",
+        "B: Falta de conexión entre capas.",
+        "C: Subajuste ("underfitting").",
+        "D: Sobreajuste ("overfitting")."
+      ],
+      "correct_answer": "D",
+      "explanation": null,
+      "image": null
+    },
+    {
+      "id": 165,
+      "text": "¿Qué método es comúnmente utilizado en el entrenamiento de redes neuronales?",
+      "options": [
+        "A: Algoritmo de Newton-Raphson.",
+        "B: Método simplex.",
+        "C: Gradiente descendente estocástico (SGD).",
+        "D: Algoritmo de k-medias."
+      ],
+      "correct_answer": "C",
+      "explanation": null,
+      "image": null
+    },
+    {
+      "id": 166,
+      "text": "Una determinada enfermedad afecta al 1% de la población. Una prueba para detectar la enfermedad tiene una sensibilidad del 95% (tasa de verdaderos positivos). Si una persona da positivo, ¿cuál es la probabilidad de que realmente tenga la enfermedad?",
+      "options": [
+        "A: 0.171",
+        "B: 0.181",
+        "C: 0.191",
+        "D: 0.161"
+      ],
+      "correct_answer": "D",
+      "explanation": null,
+      "image": null
+    },
+    {
+      "id": 167,
+      "text": "En un algoritmo de detección de spam, el 80% de los correos electrónicos de spam contienen la palabra "gratis", mientras que el 15% de los correos electrónicos que no son spam contienen la palabra "gratis". Si el 30% de los correos electrónicos son spam, ¿cuál es la probabilidad de que un correo electrónico que contiene la palabra "gratis" sea spam?",
+      "options": [
+        "A: 0.65",
+        "B: 0.696",
+        "C: 0.642",
+        "D: 0.7"
+      ],
+      "correct_answer": "B",
+      "explanation": null,
+      "image": null
+    },
+    {
+      "id": 168,
+      "text": "En un modelo bayesiano, ¿qué representa la distribución posterior?",
+      "options": [
+        "A: La probabilidad a priori de una hipótesis.",
+        "B: La probabilidad de una hipótesis dados los datos observados.",
+        "C: La probabilidad de los datos dada una hipótesis.",
+        "D: La probabilidad marginal de los datos."
+      ],
+      "correct_answer": "B",
+      "explanation": null,
+      "image": null
+    },
+    {
+      "id": 169,
+      "text": "¿Cuál es la función de activación más utilizada en la capa de salida de una red neuronal para un problema de clasificación multiclase?",
+      "options": [
+        "A: Sigmoide",
+        "B: ReLU",
+        "C: Tangente hiperbólica",
+        "D: Softmax"
+      ],
+      "correct_answer": "D",
+      "explanation": null,
+      "image": null
+    },
+    {
+      "id": 170,
+      "text": "Un enfoque bayesiano para el análisis de datos es especialmente útil cuando:",
+      "options": [
+        "A: Se cuenta con información previa o conocimiento experto sobre el problema.",
+        "B: No se dispone de datos históricos.",
+        "C: Se quiere calcular la media aritmética de un conjunto de datos.",
+        "D: Se tienen grandes cantidades de datos etiquetados."
+      ],
+      "correct_answer": "A",
+      "explanation": null,
+      "image": null
+    },
+    {
+      "id": 171,
+      "text": "¿Qué representa la función de activación ReLU (Rectified Linear Unit)?",
+      "options": [
+        "A: Una función que siempre devuelve valores negativos.",
+        "B: Una función que devuelve el valor de entrada si es positivo y 0 si es negativo.",
+        "C: Una función que genera un valor binario entre 0 y 1.",
+        "D: Una función que aplica una transformación logarítmica a la entrada."
+      ],
+      "correct_answer": "B",
+      "explanation": null,
+      "image": null
     }
 ]
