@@ -1415,8 +1415,408 @@
         "D: El coeficiente de correlación puede ser mayor que 1"
       ],
       "correct_answer": "C"
+    },
+    {
+      "id": 116,
+      "text": "Dada la siguiente matriz de transición de una cadena de Markov con tres estados: \n $\\begin{bmatrix} 0.2 & 0.5 & 0.3\\ 0.1 & 0.6 & 0.3 \\ 0.4 & 0.3 & 0.3\\ \\end{bmatrix}$ \n si el sistema inicia en el estado 2 ($S_2$), ¿cuál es la probabilidad de que en el siguiente paso se encuentre en el estado 3 ($S_3$)?",
+      "options": [
+        "A: 0.3",
+        "B: 0.6",
+        "C: 0.5",
+        "D: 0.1"
+      ],
+      "correct_answer": "A",
+      "explanation": "En la matriz de transición, la fila correspondiente al estado 2 ($S_2$) es [0.1, 0.6, 0.3]. La probabilidad de que el sistema pase del estado 2 al estado 3 es 0.3.",
+      "image": null
+    },
+    {
+      "id": 117,
+      "text": "Se tiene una cadena de Markov con estados $S_1, S_2, S_3$. Si se sabe que el sistema está en el estado $S_2 en el tiempo $t$, ¿cómo se calcula la probabilidad de que en el tiempo $t+1$ el sistema esté en el estado $S_3$?",
+      "options": [
+        "A: Se debe conocer toda la historia previa de la cadena para calcular la probabilidad de transición.",
+        "B: Se obtiene directamente de la matriz de probabilidades de transición, considerando solo el estado actual $S_2$.",
+        "C: Se calcula sumando las probabilidades de transición desde todos los estados anteriores al estado $S_3$.",
+        "D: Se usa la ley de los grandes números para estimar la probabilidad empírica."
+      ],
+      "correct_answer": "B",
+      "explanation": "La probabilidad de transición en una cadena de Markov depende únicamente del estado actual y no de la historia previa. Por lo tanto, se utiliza la matriz de transición para obtener la probabilidad de pasar del estado $S_2$ al estado $S_3$.",
+      "image": null
+    },
+    {
+      "id": 118,
+      "text": "Andrés, gerente comercial de la empresa Jabonera Rey, quiere saber si existe una relación positiva entre las ventas de jabones y el gasto de publicidad. ¿Qué variable juega el rol de la variable dependiente en el modelo de regresión lineal?",
+      "options": [
+        "A: Las ventas, dado que es el factor que incrementaría respecto a la publicidad.",
+        "B: El gasto en publicidad, dado que a más ventas más gasto en publicidad.",
+        "C: Dado el interés de Andrés, cualquier variable es la dependiente.",
+        "D: Ninguna de las anteriores."
+      ],
+      "correct_answer": "A",
+      "explanation": "En un modelo de regresión lineal, la variable dependiente es aquella que se intenta predecir o explicar, en este caso, las ventas de jabones. El gasto en publicidad sería la variable independiente.",
+      "image": null
+    },
+    {
+      "id": 119,
+      "text": "En la ecuación de regresión lineal $Y = \\beta_0 + \\beta_1X$, $\\beta_1$ representa:",
+      "options": [
+        "A: La pendiente del modelo.",
+        "B: La ordenada al origen.",
+        "C: La variable dependiente.",
+        "D: La variable independiente."
+      ],
+      "correct_answer": "A",
+      "explanation": "$\\beta_1$ es el coeficiente que mide el cambio en la variable dependiente $Y$ por cada unidad de cambio en la variable independiente $X$, lo que se traduce en la pendiente de la recta de regresión.",
+      "image": null
+    },
+    {
+      "id": 120,
+      "text": "Un investigador quiere analizar la relación entre las horas de estudio y el puntaje obtenido en un examen. Decide ajustar un modelo de regresión lineal simple de la forma: \n $Y = \\beta_0 + \\beta_1X + \\epsilon$ \n Si $X$ representa las horas de estudio y $Y$ el puntaje en el examen, ¿cuál de las siguientes afirmaciones es correcta?",
+      "options": [
+        "A: $X$ es la variable dependiente porque es la que se quiere predecir.",
+        "B: $Y$ es la variable dependiente porque es el resultado que se intenta explicar a partir de $X$.",
+        "C: Ninguna es la variable dependiente, ya que en la regresión lineal simple no hay distinción entre dependiente e independiente.",
+        "D: La variable dependiente es la que tiene un coeficiente más grande en el modelo."
+      ],
+      "correct_answer": "B",
+      "explanation": "En un modelo de regresión lineal, la variable dependiente es aquella que se intenta predecir o explicar a partir de la variable independiente. En este caso, el puntaje en el examen ($Y$) es la variable dependiente y las horas de estudio ($X$) es la variable independiente.",
+      "image": null
+    },
+    {
+      "id": 121,
+      "text": "¿Cuál de las siguientes afirmaciones describe correctamente el supuesto de normalidad de los residuos en un modelo de regresión lineal múltiple?",
+      "options": [
+        "A: Los residuos deben estar correlacionados entre sí para asegurar un buen ajuste del modelo.",
+        "B: Los residuos deben seguir una distribución normal con media cero y varianza constante.",
+        "C: Los residuos deben tener una distribución uniforme para que el modelo sea válido.",
+        "D: La normalidad de los residuos solo es importante cuando se tienen más de tres variables predictoras."
+      ],
+      "correct_answer": "B",
+      "explanation": null,
+      "image": null
+    },
+    {
+      "id": 122,
+      "text": "¿Cuál es la principal razón por la que se verifica la normalidad de los residuos en un modelo de regresión lineal múltiple?",
+      "options": [
+        "A: Porque la normalidad de los residuos garantiza que los coeficientes de regresión sean óptimos.",
+        "B: Porque la inferencia estadística (pruebas de hipótesis e intervalos de confianza) se basa en la suposición de normalidad de los errores.",
+        "C: Porque un modelo con residuos no normales no puede utilizarse para predecir valores futuros. ",
+        "D: Porque la normalidad de los residuos es necesaria para calcular el coeficiente de determinación $R^2$."
+      ],
+      "correct_answer": "B",
+      "explanation": null,
+      "image": null
+    },
+    {
+      "id": 123,
+      "text": "¿Cuál de las siguientes opciones NO es una suposición del modelo de regresión lineal múltiple?",
+      "options": [
+        "A: Todas las variables independientes deber ser categóricas.",
+        "B: Linealidad.",
+        "C: Homocedasticidad.",
+        "D: No multicolinealidad."
+      ],
+      "correct_answer": "A",
+      "explanation": "En un modelo de regresión lineal múltiple, las variables independientes pueden ser tanto categóricas como continuas. No es necesario que todas sean categóricas.",
+      "image": null
+    },
+    {
+      "id": 124,
+      "text": "En un modelo de regresión lineal múltiple, ¿qué significa la multicolinealidad?",
+      "options": [
+        "A: Que las variables independientes estén altamente correlacionadas.",
+        "B: La variable dependiente no tiene relación con ninguna de las variables independientes.",
+        "C: Que los residuos tengan una varianza constante.",
+        "D: Que las variables independientes no estén correlacionadas."
+      ],
+      "correct_answer": "A",
+      "explanation": "Para desarrollar un modelo de regresión lineal múltiple, se trabaja bajo la suposición de que las variables independientes no están correlacionadas entre sí, lo que puede dificultar la interpretación de los coeficientes y afectar la estabilidad del modelo.",
+      "image": null
+    },
+    {
+      "id": 125,
+      "text": "¿Cuál es el propósito de realizar un análisis de regresión múltiple?",
+      "options": [
+        "A: Predecir la variable dependiente en función de varias variables independientes.",
+        "B: Examinar la relación entre dos variables.",
+        "C: Calcular la media de una variable.",
+        "D: Ninguna de las anteriores."
+      ],
+      "correct_answer": "A",
+      "explanation": null,
+      "image": null
+    },
+    {
+      "id": 126,
+      "text": "¿Qué método puedes usar para verificar la normalidad de los residuos en un análisis de regresión?",
+      "options": [
+        "A: Todas las anteriores",
+        "B: Histograma.",
+        "C: Prueba de Shapiro-Wilk.",
+        "D: Gráfico Q-Q."
+      ],
+      "correct_answer": "A",
+      "explanation": null,
+      "image": null
+    },
+    {
+      "id": 127,
+      "text": "En el modelo de regresión lineal múltiple, la multicolinealidad es la situación en la cual las variables independientes de una ecuación de regresión múltiple están sumamente intercorrelacionadas. ¿Cuál de las siguientes oraciones describe detalladamente el supuesto de no multicolinealidad en un modelo de regresión lineal múltiple?",
+      "options": [
+        "A: Al menos una de las variables independientes no está correlacionada con otra variable independiente.",
+        "B: Una de las variables independientes no se encuentra relacionada con una variable independiente.",
+        "C: Todas las variables independientes están correlacionadas.",
+        "D: Ninguna de las variables independientes está correlacionada con otra variable independiente."
+      ],
+      "correct_answer": "D",
+      "explanation": null,
+      "image": null
+    },
+    {
+      "id": 128,
+      "text": "Un médico está desarrollando un modelo para predecir si un paciente tiene o no una enfermedad cardíaca en función de varias variables, como edad, nivel de colesterol y presión arterial. La variable objetivo es 1 si el paciente tiene la enfermedad y 0 si no la tiene. \n ¿Qué tipo de regresión es más adecuada para este caso?",
+      "options": [
+        "A: Regresión lineal, porque permite encontrar una relación entre las variables explicativas y la probabilidad de tener la enfermedad.",
+        "B: Regresión logística, porque la variable dependiente es categórica (presencia o ausencia de la enfermedad).",
+        "C: Regresión polinómica, porque el nivel de colesterol y la presión arterial pueden tener una relación no lineal con la presencia de la enfermedad.",
+        "D:  Regresión múltiple, porque hay más de una variable explicativa en el modelo."
+      ],
+      "correct_answer": "B",
+      "explanation": "La regresión logística es adecuada para modelar la probabilidad de un evento binario (como tener o no una enfermedad) en función de variables independientes. La regresión lineal ni polinómica son apropiadas en este caso porque la variable dependiente no es continua.",
+      "image": null
+    },
+    {
+      "id": 129,
+      "text": "Un banco quiere desarrollar un modelo que prediga si un cliente es apto (1) o no apto (0) para recibir un crédito, en función de variables como su salario, historial de pagos y deudas pendientes. \n ¿Qué tipo de modelo es más adecuado para este problema?",
+      "options": [
+        "A: Regresión logística, porque la variable objetivo es binaria (apto/no apto).",
+        "B: Regresión lineal múltiple, porque varias variables explicativas influyen en la decisión del crédito.",
+        "C: Regresión de Poisson, porque el número de clientes aprobados sigue una distribución discreta.",
+        "D: Regresión de mínimos cuadrados, porque minimiza el error cuadrático medio en problemas de clasificación."
+      ],
+      "correct_answer": "B",
+      "explanation": "La regresión logística es la más adecuada para problemas de clasificación binaria, como en este caso. La regresión lineal múltiple no es apropiada porque la variable dependiente no es continua. La regresión de Poisson y la de mínimos cuadrados no son relevantes en este contexto.",
+      "image": null
+    },
+    {
+      "id": 130,
+      "text": "Un investigador quiere analizar si existen diferencias significativas en el rendimiento académico de tres grupos de estudiantes que recibieron distintos métodos de enseñanza: presencial, en línea y mixto. Para ello, recopila las calificaciones finales de los estudiantes y aplica un ANOVA de una vía. \n ¿Cuál es el objetivo principal de la tabla ANOVA en este contexto?",
+      "options": [
+        "A: Determinar si la varianza total de las calificaciones es mayor en algunos grupos que en otros.",
+        "B: Estimar el efecto del método de enseñanza en la distribución normal de las calificaciones.",
+        "C: Evaluar si la media de al menos un grupo es significativamente diferente de las demás.",
+        "D: Comprobar si los datos cumplen con los supuestos de normalidad y homocedasticidad."
+      ],
+      "correct_answer": "C",
+      "explanation": "El objetivo principal del ANOVA es comparar las medias de los grupos y determinar si hay diferencias significativas entre al menos uno de ellos. La tabla ANOVA proporciona información sobre la variabilidad entre y dentro de los grupos.",
+      "image": null
+    },
+    {
+      "id": 131,
+      "text": "Un investigador educativo quiere analizar si existen diferencias significativas en las calificaciones promedio de estudiantes de tres colegios diferentes (A, B y C). Para ello, selecciona una muestra de estudiantes de cada colegio y aplica un ANOVA de una vía. \n ¿Cuáles son la hipótesis nula y la hipótesis alternativa en este estudio?",
+      "options": [
+        "A: $H_0$: Todos los colegios tienen la misma media de calificaciones. \n $H_1$: Al menos un colegio tiene una media de calificaciones diferente a los demás.",
+        "B: $H_0$:  La varianza de las calificaciones es la misma en los tres colegios. \n $H_1$: La varianza de las calificaciones es diferente entre los colegios.",
+        "C: $H_0$: No hay relación entre el colegio y la calificación del estudiante. \n $H_1$: La calificación de un estudiante depende del colegio en el que estudia.",
+        "D: $H_0$: La media de calificaciones del Colegio A es mayor que la del Colegio C. \n $H_1$: La media de calificaciones del Colegio B es menor que la del Colegio A."
+      ],
+      "correct_answer": "A",
+      "explanation": "En el análisis ANOVA, la hipótesis nula ($H_0$) establece que no hay diferencias significativas entre las medias de los grupos (colegios), mientras que la hipótesis alternativa ($H_1$) sugiere que al menos uno de los grupos tiene una media diferente.",
+      "image": null
+    },
+    {
+      "id": 132,
+      "text": "En un estudio sobre factores de estrés laboral, un analista de datos utiliza un modelo de ecuaciones estructurales(SEM, por sus siglas en inglés) para evaluar la relación entre diversas variables latentes, como carga de trabajo, satisfacción laboral y bienestar emocional. Dentro del análisis, la tabla ANOVA se emplea para:",
+      "options": [
+        "A: Evaluar si los coeficientes de regresión de las variables latentes son significativos.",
+        "B: Determinar si los diferentes grupos de empleados muestran diferencias significativas en los valores esperados de las variables latentes.",
+        "C: Comprobar si la relación entre las variables latentes sigue una distribución normal.",
+        "D:  Medir la correlación entre los factores de estrés y la satisfacción laboral."
+      ],
+      "correct_answer": "B",
+      "explanation": "En modelos estructurales, la tabla ANOVA se utiliza para evaluar si hay diferencias significativas en las medias de las variables latentes entre diferentes grupos. Esto permite entender cómo varían las variables latentes en función de diferentes condiciones o grupos.",
+      "image": null
+    },
+    {
+      "id": 133,
+      "text": "Un investigador analiza si existe diferencia en el rendimiento académico de estudiantes según el método de enseñanza utilizado (tradicional, interactivo o mixto), obteniendo la tabla ANOVA mostrada abajo. Basado en la tabla, ¿cuál es la conclusión más adecuada sobre la significancia de los efectos del método de enseñanza en el rendimiento académico?",
+      "options": [
+        "A: El valor de F es 5.32, lo que indica que los tres métodos tienen el mismo efecto en el rendimiento académico.",
+        "B: Como la suma de cuadrados entre grupos (SC = 245.6) es menor que la suma de cuadrados dentro de los grupos (SC = 1380.2), esto significa que no hay diferencias significativas entre los métodos.",
+        "C: No se puede sacar ninguna conclusión sin conocer la media y desviación estándar de cada grupo.",
+        "D: Dado que el p-valor (0.008) es menor a 0.05, podemos rechazar la hipótesis nula y concluir que al menos un grupo tiene una media diferente."
+      ],
+      "correct_answer": "D",
+      "explanation": "El valor F y las sumas de cuadrados son útiles para calcular el p-valor, pero la conclusión se basa en que el p-valor sea menor al nivel de significancia para rechazar la hipótesis nula.",
+      "image": "./Images/2_1.png"
+    },
+    {
+      "id": 134,
+      "text": "Se sabe que la distribución marginal de una variable aleatoria $Y$ denotada como $g(y)$, está dada por: $g(y) = \\frac{2(1+y)}{15}, 0<y<3$ \n Además, la distribución condicional de la variable aleatoria $X$ dado $Y=y$, denotada $f(x|y)$, está dada por: $f(x|y) = \\frac{x+y}{2(1+y)}, 0<x<2$ \n ¿Cuál es la función de densidad conjunta $f(x,y)$?",
+      "options": [
+        "A: $f(x,y) = \\frac{x+y}{6}, 0<x<2, 0<y<3$",
+        "B: $f(x,y) = \\frac{x+y}{3}, 0<x<2, 0<y<3$",
+        "C: $f(x,y) = \\frac{x+y}{15}, 0<x<2, 0<y<3$",
+        "D: $f(x,y) = \\frac{2(1+y)}{15}, 0<x<2, 0<y<3$"
+      ],
+      "correct_answer": "C",
+      "explanation": "Para encontrar la función de densidad conjunta $f(x,y)$, multiplicamos la función de densidad marginal $g(y)$ por la función de densidad condicional $f(x|y)$. \n Entonces, $f(x,y) = g(y) \\cdot f(x|y) = \\frac{2(1+y)}{15} \\cdot \\frac{x+y}{2(1+y)} = \\frac{x+y}{15}, 0<x<2, 0<y<3$",
+      "image": null
+    },
+    {
+      "id": 135,
+      "text": "La distribución marginal de $Y$ está dada por \n $g(y) = \\frac{1+2y}{2}$ si $0 \\leq y < 3$. La distribución condicional de $X$ dado $Y=y$ está dada por: \n $f(x|y) = \\frac{2(x+y)}{1+2y}$ si $0<x<1$ \n ¿Cuál de las siguientes funciones corresponde a f(x,y)?",
+      "options": [
+        "A: $f(x,y) = x + y$, si $0 < x < 1$ y $0 \\leq y < 3$",
+        "B: $f(x,y) = \\frac{(1+2y)^2}{4(x+y)}$, si $0 < x < 1$ y $0 \\leq y < 3$",
+        "C: $f(x,y) = \\frac{x+y}{1+2y}$, si $0 < x < 1$ y $0 \\leq y < 3$",
+        "D: $f(x,y) = \\frac{(1+2y)}{4(x+y)^2}$, si $0 < x < 1$ y $0 \\leq y < 3$"
+      ],
+      "correct_answer": "A",
+      "explanation": "Para encontrar la función de densidad conjunta $f(x,y)$, multiplicamos la función de densidad marginal $g(y)$ por la función de densidad condicional $f(x|y)$. \n Entonces, $f(x,y) = g(y) \\cdot f(x|y) = \\frac{1+2y}{2} \\cdot \\frac{2(x+y)}{1+2y} = x + y$, si $0 < x < 1$ y $0 \\leq y < 3$",
+      "image": null
+    },
+    {
+      "id": 136,
+      "text": "Un restaurante tiene dos niveles de ocupación: bajo y alto. Si hoy la ocupación es baja, la probabilidad de que mañana también sea baja es 0.7. Si hoy la ocupación es alta, la probabilidad de que mañana sea alta es 0.5. Definimos los estados como: \n - 0: Ocupación baja \n - 1: Ocupación alta \n Con esta información, responde si el proceso cumple con la propiedad markoviana y de ser así, ¿cuál es la matriz de transición?",
+      "options": [
+        "A: Sí cumple con la propiedad markoviana. La matriz de transición es \\begin{bmatrix} 0.7 & 0.3\\\\ 0.5 & 0.5\\end{bmatrix}",
+        "B: Sí cumple con la propiedad markoviana. La matriz de transición es \\begin{bmatrix} 0.5 & 0.5\\\\ 0.7 & 0.3\\end{bmatrix}",
+        "C: Sí cumple con la propiedad markoviana. La matriz de transición es \\begin{bmatrix} 0.7 & 0.5\\\\ 0.3 & 0.5\\end{bmatrix}",
+        "D: No cumple con la propiedad markoviana."
+      ],
+      "correct_answer": "A",
+      "explanation": "La propiedad markoviana establece que la probabilidad de transición entre estados depende solo del estado actual y no de los estados anteriores. En este caso, la matriz de transición es \\begin{bmatrix} 0.7 & 0.3\\\\ 0.5 & 0.5\\end{bmatrix}, donde las filas representan el estado actual y las columnas el estado futuro.",
+      "image": null
+    },
+    {
+      "id": 137,
+      "text": "En un modelo de regresión lineal múltiple, la suposición de homocedasticidad implica que:",
+      "options": [
+        "A: La varianza de los residuos es constante.",
+        "B: Los residuos tienen distribución normal.",
+        "C: Las variables independientes no están correlacionadas.",
+        "D: Ninguna de las anteriores."
+      ],
+      "correct_answer": "A",
+      "explanation": "La homocedasticidad establece que la varianza de los errores o residuos es constante a lo largo de todos los niveles de las variables independientes.",
+      "image": null
+    },
+    {
+      "id": 138,
+      "text": "¿Cuál de los siguientes métodos se puede utilizar para evaluar si los residuos de un modelo de regresión lineal múltiple siguen una distribución normal?",
+      "options": [
+        "A: La estadística $R^2$ y el gráfico de dispersión de los residuos.",
+        "B: La prueba de Levene y la prueba de Bartlett.",
+        "C: La prueba de Shapiro-Wilk y el gráfico Q-Q.",
+        "D: La prueba de Durbin-Watson."
+      ],
+      "correct_answer": "C",
+      "explanation": "La prueba de Shapiro-Wilk y el gráfico Q-Q son herramientas comunes para evaluar la normalidad de los residuos en un modelo de regresión lineal múltiple. La prueba de Durbin-Watson se utiliza para detectar la autocorrelación en los residuos, mientras que las pruebas de Levene y Bartlett evalúan la homocedasticidad.",
+      "image": null
+    },
+    {
+      "id": 139,
+      "text": "¿Cuál de los siguientes métodos se usa para detectar la multicolinealidad en un modelo de regresión lineal múltiple?",
+      "options": [
+        "A: La prueba de Durbin-Watson.",
+        "B: La prueba de Shapiro-Wilk.",
+        "C: La prueba de Levene.",
+        "D: El estadístico de inflación de la varianza (VIF)."
+      ],
+      "correct_answer": "D",
+      "explanation": "El estadístico de inflación de la varianza (VIF) se utiliza para detectar la multicolinealidad en un modelo de regresión lineal múltiple. Un VIF mayor a 10 indica una alta multicolinealidad entre las variables independientes. La prueba de Durbin-Watson evalúa la autocorrelación de los residuos, mientras que la prueba de Shapiro-Wilk evalúa la normalidad y la prueba de Levene evalúa la homocedasticidad.",
+      "image": null
+    },
+    {
+      "id": 140,
+      "text": "¿Cuál de las siguientes afirmaciones describe correctamente el supuesto de no colinealidad en un modelo de regresión lineal múltiple?",
+      "options": [
+        "A: No debe existir una relación lineal fuerte entre las variables independientes.",
+        "B: Las variables independientes deben estar altamente correlacionadas entre sí para mejorar la precisión del modelo.",
+        "C: La multicolinealidad solo afecta cuando hay más de 3 variables predictoras.",
+        "D: La colinealidad se corrige eliminando las variables menos significativas del modelo."
+      ],
+      "correct_answer": "A",
+      "explanation": "En un modelo de regresión lineal múltiple, es importante que las variables independientes no estén altamente correlacionadas entre sí, ya que esto puede afectar la interpretación de los coeficientes y la estabilidad del modelo.",
+      "image": null
+    },
+    {
+      "id": 141,
+      "text": "Un economista está estudiando cómo el precio del petróleo (costo por barril) afecta el costo del transporte aéreo (precio del boleto). Decide utilizar un modelo de regresión lineal simple con la ecuación: \n $\\text{Precio del boleto} = \\beta_0 + \\beta_1 \\cdot \\text{Precio del petróleo} + \\epsilon$ \n ¿Cuál de las siguientes afirmaciones es correcta sobre la variable dependiente de este modelo?",
+      "options": [
+        "A: No se puede determinar sin más información.",
+        "B: Ambas variables son dependientes, ya que ambos precios están correlacionados.",
+        "C: El precio del petróleo es la variable dependiente, ya que afecta el precio del boleto.",
+        "D: El costo del boleto es la variable dependiente porque es el resultado que se intenta predecir."
+      ],
+      "correct_answer": "D",
+      "explanation": "En un modelo de regresión lineal, la variable dependiente es aquella que se intenta predecir o explicar. En este caso, el precio del boleto es la variable dependiente y el precio del petróleo es la variable independiente.",
+      "image": null
+    },
+    {
+      "id": 142,
+      "text": "La variable aleatoria continua $X$ tiene la siguiente función de probabilidad acumulada: \n $F(x) = \\begin{cases} 0 & \\text{si } x \\leq 0 \\\\ x^3, & \\text{si } 0 < x < 1 \\\\ 1 & \\text{si } x \\geq 1 end{cases}$ \n ¿Cuál de las siguientes opciones describe correctamente la probabilidad de que $X$ tome un valor entre 0.2 y 0.5?",
+      "options": [
+        "A: P(0.2 < X < 0.5) = 0.5^3 - 0.2^3",
+        "B: P(0.2 < X < 0.5) = \\int_{0.2}^{0.5} x^3 dx",
+        "C: P(0.2 < X < 0.5) = \\int_{0.4}^{0.19} x^3 dx",
+        "D: Ninguna de las anteriores."
+      ],
+      "correct_answer": "A",
+      "explanation": "Para calcular la probabilidad de que $X$ tome un valor entre 0.2 y 0.5, se utiliza la función de probabilidad acumulada $F(x)$. La probabilidad se calcula como: \n P(0.2 < X < 0.5) = F(0.5) - F(0.2) = 0.5^3 - 0.2^3.",
+      "image": null
+    },
+    {
+      "id": 143,
+      "text": "Un biólogo investiga si diferentes fertilizadores afectan el crecimiento de plantas. Los datos obtenidos se resumen en la tabla ANOVA aquí mostrada. \n ¿Qué componente de la tabla permite determinar si los fertilizantes tiene un efecto significativo en el crecimiento de las plantas?",
+      "options": [
+        "A: La suma de cuadrados total (SC = 1300.8) porque muestra la variabilidad del experimento.",
+        "B: El valor F (7.91) y el p-valor, porque permiten determinar si la variabilidad entre grupos es estadísticamente significativa.",
+        "C: El grado de libertad dentro de grupos (GL = 46) porque indica cuántas observaciones hay.",
+        "D: El cuadrado medio dentro de los grupos (CM = 21.31) porque mide la variabilidad interna y determina si hay efectos del fertilizante."
+      ],
+      "correct_answer": "B",
+      "explanation": "Si el p-valor es menor que el nivel de significancia (0.05), se rechaza la hipótesis nula y se concluye que al menos un grupo tiene un efecto significativo. Si el valor F es alto, indica que la variabilidad entre grupos es mayor que dentro de los grupos, sugiriendo un efecto significativo.",
+      "image": "./Images/2_2.png"
+    },
+    {
+      "id": 144,
+      "text": "Si $X$ y $Y$ son variables aleatorias independientes, ¿cuál de las siguientes afirmaciones es correcta?",
+      "options": [
+        "A: Su covarianza es cero.",
+        "B: $\\sigma_{X + Y}^2 = \\sigma_X^2 + \\sigma_Y^2$.",
+        "C: $E(XY) = E(X)E(Y)$.",
+        "D: Todas las anteriores."
+      ],
+      "correct_answer": "D",
+      "explanation": "Si $X$ y $Y$ son independientes, entonces su covarianza es cero, la varianza de la suma es la suma de las varianzas y el valor esperado del producto es el producto de los valores esperados.",
+      "image": null
+    },
+    {
+      "id": 145,
+      "text": "En una gasolinera se vende gasolina regular, premium y diésel a \\$24.59, \\$26.50 y \\$25.80 el litro, respectivamente. Si $X_1, X_2, X_3$ son independientes, ¿cuál es la expresión para calcular la varianza del ingreso por día?",
+      "options": [
+        "A: $\\sigma^2 = (24.59)^2 \\sigma_1^2 + (26.50)^2 \\sigma_2^2 + (25.80)^2 \\sigma_3^2$",
+        "B: $\\sigma^2 = 24.59 \\sigma_1^2 + 26.50 \\sigma_2^2 + 25.80 \\sigma_3^2$",
+        "C: $\\sigma^2 = (24.59 \\sigma_1 + 26.50 \\sigma_2 + 25.80 \\sigma_3)^2",
+        "D: $\\sigma^2 = \\sigma_1^2 + \\sigma_2^2 + \\sigma_3^2$"
+      ],
+      "correct_answer": "A",
+      "explanation": "Para las variables independientes $X_1, X_2, \\dots X_n$, que se multiplican por constantes $c_1, c_2, \\dots c_n$, la varianza se calcula como: \n $\\sigma^2 = c_1^2 \\sigma_1^2 + c_2^2 \\sigma_2^2 + \\dots + c_n^2 \\sigma_n^2$. \n En este caso, los precios son las constantes y las varianzas de las ventas son $\\sigma_1^2, \\sigma_2^2, \\sigma_3^2$.",
+      "image": null
+    },
+    {
+      "id": 146,
+      "text": "El siguiente diagrama de dispersión representa un modelo de regresión lineal simple. \n ¿Cuál de las siguientes opciones representa correctamente la variable dependiente?",
+      "options": [
+        "A: $\\beta_0 + \\beta_1 + \\epsilon$",
+        "B: $X$",
+        "C: $Y$",
+        "D: $\\beta_0 + \\beta_1$"
+      ],
+      "correct_answer": "C",
+      "explanation": "La variable dependiente en un modelo de regresión lineal simple es la que se intenta predecir o explicar, que en este caso es $Y$. La variable independiente es $X$ y los coeficientes son $\\beta_0$ y $\\beta_1$.",
+      "image": "./Images/2_3.png"
     }
-
 ]
-
-
