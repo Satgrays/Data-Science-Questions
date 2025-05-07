@@ -1818,5 +1818,31 @@
       "correct_answer": "C",
       "explanation": "La variable dependiente en un modelo de regresión lineal simple es la que se intenta predecir o explicar, que en este caso es $Y$. La variable independiente es $X$ y los coeficientes son $\\beta_0$ y $\\beta_1$.",
       "image": "./Images/2_3.png"
+    },
+    {
+      "id": 147,
+      "text": "",
+      "options": [
+        "A: ",
+        "B: ",
+        "C: ",
+        "D: "
+      ],
+      "correct_answer": "",
+      "explanation": null,
+      "image": null
+    },
+    {
+      "id": 147,
+      "text": "Asume que tienes un clasificador binario que se entrenó con un conjunto de datos en el que número de elementos de la clase positiva (la etiqueta es un uno) es mucho menor al de la clase negativa (la etiqueta de estos elementos es un cero).  De las siguientes métricas, ¿cuál sería la métrica que no es recomendable para evaluar el rendimiento del clasificador?",
+      "options": [
+        "A: Precision",
+        "B: "F1-Score",
+        "C: Accuracy",
+        "D: Recall"
+      ],
+      "correct_answer": "C",
+      "explanation": null,
+      "image": null
     }
 ]
