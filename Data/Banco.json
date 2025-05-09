@@ -16,7 +16,7 @@
       "id": 2,
       "text": "Sea $T:\\mathbb{R}^{n}\\to \\mathbb{R}^{m}$. Para comprobar si $T$ es una transformación lineal, ¿qué se debe verificar?",
       "options": [
-        "A: Que para cualquier $u, v \\in\\mathbb{R}^{n} $ y cualquier escala $c$, se cumpla $T(u+v)=T(u) y T(cu) = cT(u)$\n",
+        "A: Que para cualquier $u, v \\in\\mathbb{R}^{n} $ y cualquier escalar $c$, se cumpla $T(u+v) = T(u)+T(v) $ y $T(cu) = cT(u)$\n",
         "B: Que $T$ preserve la ortogonalidad entre vectores.\n",
         "C: Que $T$ tenga una matriz asociada de determinante no nulo.\n",
         "D: Que $T(0) = 0$ y que $T$ envíe cada vector a otro de igual norma"
@@ -32,7 +32,7 @@
       "options": [
         "A: Que $T(x,y,z)$ tenga una matriz asociada con determinante distinto de cero.\n",
         "B: Que $T(0,0,0)=(0,0,0)$ y que $T(x,y,z)$ sea diferenciable en todos los puntos.\n",
-        "C: Que $T(x,y,z)$ preserve la norma de los vectores en \\mathbb{R}^{3}.\n",
+        "C: Que $T(x,y,z)$ preserve la norma de los vectores en $\\mathbb{R}^{3}$.\n",
         "D: Que $T(u+v)=T(u)+T(v)$ y $T(cu)=cT(u)$ para todos los valores $u,v$ y escalares $c$."
       ],
       "correct_answer": "D",
@@ -2141,6 +2141,45 @@
         "D: Una función que aplica una transformación logarítmica a la entrada."
       ],
       "correct_answer": "B",
+      "explanation": null,
+      "image": null
+    },
+    {
+      "id":172,
+      "text": "Dado un conjunto de vectores en un espacio vectorial $V$, ¿cuál es el procedimiento correcto para calcular su dimensión?",
+      "options": [
+        "A: Elegir los vectores con más componentes no nulas y contar cuántos hay.",
+        "B: Hallar una base del espacio vectorial y contar la cantidad de vectores en la base.",
+        "C: Contar el número total de vectores en cualquier conjunto dado.",
+        "D: Multiplicar el número de vectores dados por su número de componentes."
+      ],
+      "correct_answer": "B",
+      "explanation": null,
+      "image": null
+    },
+    {
+      "id":173,
+      "text": "Si un espacio vectorial $V$ tiene dimensión $n$, ¿cuál de las siguientes afirmaciones es falsa?",
+      "options": [
+        "A: Si un conjunto tiene más de $n$ vectores es linealmente dependiente.",
+        "B: Cualquier conjunto de $n$ vectores linealmente independientes en $V$ es una base.",
+        "C: Cualquier conjunto de $n$ vectores que genere $V$ es una base.",
+        "D: Un subconjunto de una base de $V$ con menos de $n$ elementos también es una base."
+      ],
+      "correct_answer": "D",
+      "explanation": null,
+      "image": null
+    },
+    {
+      "id":174,
+      "text": "Sean los conjuntos: \n $A = \\{ 1,2,3,4,5 \\}$, $B = \\{ 4,5,6,7,8 \\}$, $C = \\{ 1,5,9 \\}$ \n ¿Cuál es el resultado de $A \\cap (B \\cup C)$ ? ",
+      "options": [
+        "A: $\\{ 4,5 \\}$",
+        "B: $\\{ 1,2,3,4,5,6,7,8,9 \\}$",
+        "C: $\\{ 1,5,6,9 \\}$",
+        "D: $\\{ 1,4,5 \\}$"
+      ],
+      "correct_answer": "D",
       "explanation": null,
       "image": null
     }
